@@ -1,4 +1,9 @@
-import { component$, useContext } from '@builder.io/qwik';
+iimport { routeLoader$ } from '@builder.io/qwik-city';
+
+export const useRouteLoader = routeLoader$(() => {
+  return {};
+});
+mport { component$, useContext } from '@builder.io/qwik';
 import { type DocumentHead } from "@builder.io/qwik-city";
 
 import Hero from "~/components/furniture/hero";
