@@ -31,7 +31,7 @@ jobs:
         run: yarn install --frozen-lockfile
       - name: Build site
         working-directory: web
-        run: yarn build.client -- --outDir dist-pages
+        run: yarn build.static -- --outDir dist-pages
       - name: Add SPA fallback
         working-directory: web
         run: |
