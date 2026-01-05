@@ -36,26 +36,26 @@ jobs:
           if [ "$REPO_NAME" = "${OWNER}.github.io" ]; then
             echo "PUBLIC_BASE_PATH=/" >> "$GITHUB_ENV"
             echo "PUBLIC_ORIGIN=https://${OWNER}.github.io" >> "$GITHUB_ENV"
+            echo "PAGES_DIR=web/dist" >> "$GITHUB_ENV"
           else
             echo "PUBLIC_BASE_PATH=/$REPO_NAME/" >> "$GITHUB_ENV"
             echo "PUBLIC_ORIGIN=https://${OWNER}.github.io/$REPO_NAME" >> "$GITHUB_ENV"
+            echo "PAGES_DIR=web/dist/$REPO_NAME" >> "$GITHUB_ENV"
           fi
       - name: Build site
         working-directory: web
         run: yarn build.static
       - name: Add SPA fallback
-        working-directory: web
         run: |
-          if [ -f dist/index.html ]; then
-            cp dist/index.html dist/404.html
+          if [ -f "$PAGES_DIR/index.html" ]; then
+            cp "$PAGES_DIR/index.html" "$PAGES_DIR/404.html"
           fi
       - name: Add .nojekyll
-        working-directory: web
-        run: touch dist/.nojekyll
+        run: touch "$PAGES_DIR/.nojekyll"
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: web/dist
+          path: ${{ env.PAGES_DIR }}
           name: github-pages-${{ github.run_id }}
 
   deploy:
