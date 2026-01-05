@@ -82,8 +82,8 @@ const articles: Article[] = [
     slug: 'awesome-privacy',
     markdown: `${baseUrl}articles/5_Privacy_Respecting_Software.md`,
     warningMessage: {
-      en: 'This resource has moved! You can now access it at github.com/Lissy93/awesome-privacy',
-      fa: 'این منبع منتقل شده است. اکنون می توانید آن را در github.com/Lissy93/awesome-privacy ببینید.',
+      en: 'This resource has moved! You can now access it at awesome-privacy.xyz',
+      fa: 'این منبع منتقل شده است. اکنون می توانید آن را در awesome-privacy.xyz ببینید.',
     },
   },
 ];

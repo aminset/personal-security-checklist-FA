@@ -69,7 +69,7 @@ export default component$(() => {
               </details>
             </li>
             <li>
-              <a href="https://github.com/lissy93/personal-security-checklist"
+              <a href="https://github.com/hamid-k/personal-security-checklist-FA"
                 class="tooltip flex tooltip-bottom" data-tip={t('nav.viewSource')}>
                 <Icon icon="github" width={16} height={16}  />GitHub
               </a>
@@ -110,7 +110,7 @@ export default component$(() => {
             {t('appName')}
           </h2>
           <li><a href="/"><Icon class="mr-2" icon="homepage" width={16} height={16}  />{t('nav.home')}</a></li>
-          <li><a href="https://github.com/lissy93/personal-security-checklist">
+          <li><a href="https://github.com/hamid-k/personal-security-checklist-FA">
             <Icon class="mr-2" icon="github" width={16} height={16}  />GitHub</a>
           </li>
           <li>
@@ -144,28 +144,15 @@ export default component$(() => {
             </a>
             <ul>
               <li>
-                <a href="https://github.com/Lissy93/personal-security-checklist/?tab=readme-ov-file#contributing">{t('nav.contributing')}</a>
+                <a href="https://github.com/hamid-k/personal-security-checklist-FA/?tab=readme-ov-file#contributing">{t('nav.contributing')}</a>
               </li>
               <li>
-                <a href="https://github.com/Lissy93/personal-security-checklist/blob/master/LICENSE">{t('nav.license')}</a>
+                <a href="https://github.com/hamid-k/personal-security-checklist-FA/blob/master/LICENSE">{t('nav.license')}</a>
               </li>
             </ul>
             <ul>
             <li>
               <a href="/about#author">{t('nav.author')}</a>
-              <ul>
-                <li><a href="https://aliciasykes.com/contact">{t('nav.contact')}</a></li>
-                <li>
-                  <a href="https://apps.aliciasykes.com">{t('nav.moreApps')}</a>
-                </li>
-                <li class="flex flex-row">
-                  <a href="https://github.com/lissy93"><Icon icon="hub" width={16} height={16} /></a>
-                  <a href="https://x.com/lissy_sykes"><Icon icon="twitter" width={16} height={16} /></a>
-                  <a href="https://mastodon.social/@lissy93"><Icon icon="mastodon" width={16} height={16} /></a>
-                  <a href="https://dev.to/lissy93"><Icon icon="dev" width={16} height={16} /></a>
-                  <a href="https://linkedin.com/in/aliciasykes"><Icon icon="linkedin" width={16} height={16} /></a>
-                </li>
-              </ul>
             </li>
             </ul>
           </li>

@@ -53,7 +53,7 @@
       2FA is where you must provide both something you know (a password) and something you have (such as a
       code on your phone) to log in. This means that if anyone has your password (e.g., through phishing,
       malware, or a data breach), they will not be able to log into your account. It's easy to get started,
-      download [an authenticator app](https://github.com/Lissy93/awesome-privacy#2-factor-authentication)
+      download [an authenticator app](https://awesome-privacy.xyz#2-factor-authentication)
       onto your phone, and then go to your account security settings and follow the steps to enable 2FA. Next
       time you log in on a new device, you will be prompted for the code that is displayed in the app on your phone
       (it works without internet, and the code usually changes every 30 seconds).
@@ -77,7 +77,7 @@
       email address appears in any new data sets. It is useful to know as soon as possible when this happens so
       that you can change your passwords for the affected accounts. [Have i been pwned](https://awesome-privacy.xyz/security-tools/online-tools/have-i-been-pwned) also has domain-wide
       notification, where you can receive alerts if any email addresses under your entire domain appear (useful if
-      you use aliases for [anonymous forwarding](https://github.com/Lissy93/awesome-privacy#anonymous-mail-forwarding)).
+      you use aliases for [anonymous forwarding](https://awesome-privacy.xyz#anonymous-mail-forwarding)).
 
   - point: Shield your Password/PIN
     priority: Optional
@@ -147,7 +147,7 @@
     details: >-
       Many password managers are also able to generate 2FA codes. It is best not to use your primary password manager
       as your 2FA authenticator as well, since it would become a single point of failure if compromised. Instead, use a
-      dedicated [authenticator app](https://github.com/Lissy93/awesome-privacy#2-factor-authentication) on your phone or laptop.
+      dedicated [authenticator app](https://awesome-privacy.xyz#2-factor-authentication) on your phone or laptop.
 
   - point: Avoid Face Unlock
     priority: Advanced
@@ -196,7 +196,7 @@
       phone number to log in, then it will be significantly harder for anyone trying to gain unauthorised access. The easiest
       method for multiple emails, is using auto-generated aliases for anonymous mail forwarding. This is where
       [anything]@yourdomain.com will arrive in your inbox, allowing you to use a different email for each account (see
-      [Mail Alias Providers](https://github.com/Lissy93/awesome-privacy#mail-forwarding)). Usernames are easier
+      [Mail Alias Providers](https://awesome-privacy.xyz#mail-forwarding)). Usernames are easier
       since you can use your password manager to generate, store, and auto-fill these. Virtual phone numbers can be generated
       through your VOIP provider.
   softwareLinks:
@@ -273,7 +273,7 @@
       Google Chrome, Edge and Safari as (without correct configuration) all three of them, collect usage data,
       call home and allow for invasive tracking. Firefox requires a few changes to achieve optimal security,
       for example - [arkenfox](https://github.com/arkenfox/user.js/wiki) or [12byte](https://12bytes.org/firefox-configuration-guide-for-privacy-freaks-and-performance-buffs/)'s
-      user.js configs. See more: [Privacy Browsers](https://github.com/Lissy93/awesome-privacy#browsers).
+      user.js configs. See more: [Privacy Browsers](https://awesome-privacy.xyz#browsers).
 
   - point: Use a Private Search Engine
     priority: Essential
@@ -534,13 +534,13 @@
       But if you really want to go all out, then it will really reduce your attack surface.
   softwareLinks:
     - title: Privacy Browsers
-      url: https://github.com/Lissy93/awesome-privacy#browsers
+      url: https://awesome-privacy.xyz#browsers
     - title: Search Engines
-      utl: https://github.com/Lissy93/awesome-privacy#search-engines
+      utl: https://awesome-privacy.xyz#search-engines
     - title: Browser Extensions
-      url: https://github.com/Lissy93/awesome-privacy#browser-extensions
+      url: https://awesome-privacy.xyz#browser-extensions
     - title: Browser & Bookmark Sync
-      url: https://github.com/Lissy93/awesome-privacy#browser-sync
+      url: https://awesome-privacy.xyz#browser-sync
   color: emerald
 
 - title: Email
@@ -712,13 +712,13 @@
   color: teal
   softwareLinks:
     - title: Secure Email Providers
-      url: https://github.com/Lissy93/awesome-privacy#encrypted-email
+      url: https://awesome-privacy.xyz#encrypted-email
     - title: Mail Forwarding
-      url: https://github.com/Lissy93/awesome-privacy#anonymous-mail-forwarding
+      url: https://awesome-privacy.xyz#anonymous-mail-forwarding
     - title: Pre-Configured Mail Servers
-      url: https://github.com/Lissy93/awesome-privacy#pre-configured-mail-servers
+      url: https://awesome-privacy.xyz#pre-configured-mail-servers
     - title: Email Clients
-      url: https://github.com/Lissy93/awesome-privacy#email-clients
+      url: https://awesome-privacy.xyz#email-clients
 
 - title: Messaging
   slug: messaging
@@ -845,9 +845,9 @@
       verify that the system running is authentic without back doors.
   softwareLinks:
     - title: Secure Messaging Apps
-      url: https://github.com/Lissy93/awesome-privacy#encrypted-messaging
+      url: https://awesome-privacy.xyz#encrypted-messaging
     - title: P2P Messaging Platforms
-      url: https://github.com/Lissy93/awesome-privacy#p2p-messaging
+      url: https://awesome-privacy.xyz#p2p-messaging
   color: cyan
 
 - title: Social Media
@@ -962,13 +962,13 @@
 
   softwareLinks:
     - title: Alternative Social Media
-      url: https://github.com/Lissy93/awesome-privacy#social-networks
+      url: https://awesome-privacy.xyz#social-networks
     - title: Alternative Video Platforms
-      url: https://github.com/Lissy93/awesome-privacy#video-platforms
+      url: https://awesome-privacy.xyz#video-platforms
     - title: Alternative Blogging Platforms
-      url: https://github.com/Lissy93/awesome-privacy#blogging-platforms
+      url: https://awesome-privacy.xyz#blogging-platforms
     - title: News Readers and Aggregation
-      url: https://github.com/Lissy93/awesome-privacy#news-readers-and-aggregation
+      url: https://awesome-privacy.xyz#news-readers-and-aggregation
   color: blue
 
 - title: Networks
@@ -1130,21 +1130,21 @@
   color: violet
   softwareLinks:
   - title: Virtual Private Networks
-    url: https://github.com/Lissy93/awesome-privacy#virtual-private-networks
+    url: https://awesome-privacy.xyz#virtual-private-networks
   - title: Mix Networks
-    url: https://github.com/Lissy93/awesome-privacy#mix-networks
+    url: https://awesome-privacy.xyz#mix-networks
   - title: Router Firmware
-    url: https://github.com/Lissy93/awesome-privacy#router-firmware
+    url: https://awesome-privacy.xyz#router-firmware
   - title: Open Source Proxies
-    url: https://github.com/Lissy93/awesome-privacy#proxies
+    url: https://awesome-privacy.xyz#proxies
   - title: DNS Providers
-    url: https://github.com/Lissy93/awesome-privacy#dns
+    url: https://awesome-privacy.xyz#dns
   - title: Firewalls
-    url: https://github.com/Lissy93/awesome-privacy#firewalls
+    url: https://awesome-privacy.xyz#firewalls
   - title: Network Analysis Tools
-    url: https://github.com/Lissy93/awesome-privacy#network-analysis
+    url: https://awesome-privacy.xyz#network-analysis
   - title: Self-Hosted Network Security Tools
-    url: https://github.com/Lissy93/awesome-privacy#self-hosted-network-security
+    url: https://awesome-privacy.xyz#self-hosted-network-security
 
 - title: Mobile Devices
   slug: mobile-devices
@@ -1321,11 +1321,11 @@
   color: fuchsia
   softwareLinks:
   - title: Mobile Apps, for Security + Privacy
-    url: https://github.com/Lissy93/awesome-privacy#mobile-apps
+    url: https://awesome-privacy.xyz#mobile-apps
   - title: Encrypted Messaging
-    url: https://github.com/Lissy93/awesome-privacy#encrypted-messaging
+    url: https://awesome-privacy.xyz#encrypted-messaging
   - title: Mobile Operation Systems
-    url: https://github.com/Lissy93/awesome-privacy#mobile-operating-systems
+    url: https://awesome-privacy.xyz#mobile-operating-systems
 
 - title: Personal Computers
   slug: personal-computers
@@ -1544,19 +1544,19 @@
   color: pink
   softwareLinks:
   - title: Secure Operating Systems
-    url: https://github.com/Lissy93/awesome-privacy#desktop-operating-systems
+    url: https://awesome-privacy.xyz#desktop-operating-systems
   - title: Linux Defenses
-    url: https://github.com/Lissy93/awesome-privacy#linux-defences
+    url: https://awesome-privacy.xyz#linux-defences
   - title: Windows Defenses
-    url: https://github.com/Lissy93/awesome-privacy#windows-defences
+    url: https://awesome-privacy.xyz#windows-defences
   - title: Mac OS Defenses
-    url: https://github.com/Lissy93/awesome-privacy#mac-os-defences
+    url: https://awesome-privacy.xyz#mac-os-defences
   - title: Anti-Malware
-    url: https://github.com/Lissy93/awesome-privacy#anti-malware
+    url: https://awesome-privacy.xyz#anti-malware
   - title: Firewalls
-    url: https://github.com/Lissy93/awesome-privacy#firewalls-1
+    url: https://awesome-privacy.xyz#firewalls-1
   - title: File Encryption
-    url: https://github.com/Lissy93/awesome-privacy#file-encryption
+    url: https://awesome-privacy.xyz#file-encryption
 
 - title: Smart Home
   slug: smart-home
@@ -1654,9 +1654,9 @@
   color: red
   softwareLinks:
   - title: Home Automation
-    url: https://github.com/Lissy93/awesome-privacy#home-automation
+    url: https://awesome-privacy.xyz#home-automation
   - title: AI Voice Assistants
-    url: https://github.com/Lissy93/awesome-privacy#ai-voice-assistants
+    url: https://awesome-privacy.xyz#ai-voice-assistants
 
 - title: Personal Finance
   slug: personal-finance
@@ -1736,17 +1736,17 @@
   color: purple
   softwareLinks:
   - title: Virtual Credit Cards
-    url: https://github.com/Lissy93/awesome-privacy#virtual-credit-cards
+    url: https://awesome-privacy.xyz#virtual-credit-cards
   - title: Cryptocurrencies
-    url: https://github.com/Lissy93/awesome-privacy#cryptocurrencies
+    url: https://awesome-privacy.xyz#cryptocurrencies
   - title: Crypto Wallets
-    url: https://github.com/Lissy93/awesome-privacy#crypto-wallets
+    url: https://awesome-privacy.xyz#crypto-wallets
   - title: Crypto Exchanges
-    url: https://github.com/Lissy93/awesome-privacy#crypto-exchanges
+    url: https://awesome-privacy.xyz#crypto-exchanges
   - title: Other Payment Methods
-    url: https://github.com/Lissy93/awesome-privacy#other-payment-methods
+    url: https://awesome-privacy.xyz#other-payment-methods
   - title: Budgeting Tools
-    url: https://github.com/Lissy93/awesome-privacy#budgeting-tools
+    url: https://awesome-privacy.xyz#budgeting-tools
 
 - title: Human Aspect
   slug: human-aspect

@@ -3,7 +3,7 @@ description: 🆕 Suggest something to be added to the list
 title: '[ADDITION] <title>'
 labels: ['Suggested Addition', 'Awaiting Review']
 assignees:
-  - lissy93
+  - hamid-k
 body:
   # Location
   - type: input
@@ -52,5 +52,5 @@ body:
           required: true
         - label: I have checked that a similar ticket has not previously been opened
           required: true
-        - label: I agree to the repositories [Code of Conduct](https://github.com/Lissy93/personal-security-checklist/blob/master/.github/CODE_OF_CONDUCT.md)
+        - label: I agree to the repositories [Code of Conduct](https://github.com/hamid-k/personal-security-checklist-FA/blob/master/.github/CODE_OF_CONDUCT.md)
           required: true

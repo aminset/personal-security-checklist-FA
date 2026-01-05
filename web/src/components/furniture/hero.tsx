@@ -15,7 +15,7 @@ export default component$(() => {
           <h1 class="text-5xl font-bold">{t('hero.title')}</h1>
           <p class="subtitle pb-6">{t('hero.subtitle')}</p>
           <Icon class="mb-4" icon="shield" width={120} height={120}  />
-          <a href="https://github.com/lissy93/personal-security-checklist">
+          <a href="https://github.com/hamid-k/personal-security-checklist-FA">
             <button class="btn btn-primary btn-lg">
               <Icon icon="github" width={20} height={20}  />
               {t('hero.viewGithub')}

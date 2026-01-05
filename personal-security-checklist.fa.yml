@@ -50,7 +50,7 @@
     details: >-
       در 2FA باید هم چیزی که می‌دانید (گذرواژه) و هم چیزی که دارید (مثل کد روی گوشی) ارائه شود. بنابراین اگر
       کسی گذرواژه شما را داشته باشد (مثلا با فیشینگ، بدافزار یا نشت داده)، نمی‌تواند وارد حساب شما شود. شروع
-      کار ساده است: یک [برنامه احرازکننده](https://github.com/Lissy93/awesome-privacy#2-factor-authentication) روی
+      کار ساده است: یک [برنامه احرازکننده](https://awesome-privacy.xyz#2-factor-authentication) روی
       گوشی نصب کنید، سپس در تنظیمات امنیتی حساب مراحل فعال‌سازی 2FA را دنبال کنید. دفعه بعد که روی دستگاه جدید
       وارد شوید، کدی که در برنامه نمایش داده می‌شود را وارد می‌کنید (بدون اینترنت کار می‌کند و معمولا هر ۳۰
       ثانیه تغییر می‌کند).
@@ -73,7 +73,7 @@
       دانستن این موضوع در اسرع وقت مفید است تا گذرواژه حساب‌های آسیب‌دیده را تغییر دهید.
       [Have I Been Pwned](https://awesome-privacy.xyz/security-tools/online-tools/have-i-been-pwned) همچنین اعلان
       سراسری دامنه دارد و می‌تواند در صورت ظاهر شدن ایمیل‌های دامنه شما هشدار بدهد (برای زمانی که از
-      نام‌های مستعار در [فورواردینگ ناشناس](https://github.com/Lissy93/awesome-privacy#anonymous-mail-forwarding) استفاده می‌کنید).
+      نام‌های مستعار در [فورواردینگ ناشناس](https://awesome-privacy.xyz#anonymous-mail-forwarding) استفاده می‌کنید).
 
   - point: پوشاندن گذرواژه/پین هنگام ورود
     priority: Optional
@@ -142,7 +142,7 @@
     details: >-
       بسیاری از مدیران گذرواژه قادر به تولید کدهای 2FA هستند. بهتر است از مدیر گذرواژه اصلی خود به‌عنوان
       احرازکننده 2FA استفاده نکنید، چون در صورت نفوذ، یک نقطه شکست واحد ایجاد می‌شود. به‌جایش از یک
-      [برنامه احرازکننده](https://github.com/Lissy93/awesome-privacy#2-factor-authentication) مجزا روی گوشی یا لپ‌تاپ
+      [برنامه احرازکننده](https://awesome-privacy.xyz#2-factor-authentication) مجزا روی گوشی یا لپ‌تاپ
       استفاده کنید.
 
   - point: از باز کردن با چهره پرهیز کنید
@@ -188,7 +188,7 @@
       داشتن گذرواژه‌های متفاوت برای هر حساب گام خوبی است، اما اگر همچنین نام کاربری، ایمیل یا شماره تلفن یکتا برای ورود
       استفاده کنید، دسترسی غیرمجاز بسیار سخت‌تر می‌شود. ساده‌ترین روش برای داشتن چند ایمیل، استفاده از نام‌های مستعار
       خودکار برای فورواردینگ ناشناس است؛ به‌طوری که [هرچیزی]@yourdomain.com به صندوق شما می‌رسد و می‌توانید برای هر حساب
-      ایمیل متفاوت داشته باشید (نگاه کنید به [ارائه‌دهندگان نام مستعار ایمیل](https://github.com/Lissy93/awesome-privacy#mail-forwarding)).
+      ایمیل متفاوت داشته باشید (نگاه کنید به [ارائه‌دهندگان نام مستعار ایمیل](https://awesome-privacy.xyz#mail-forwarding)).
       نام‌های کاربری ساده‌ترند چون می‌توانید با مدیر گذرواژه تولید، ذخیره و خودکار پرشان کنید. شماره‌های مجازی نیز از
       طریق ارائه‌دهنده VOIP قابل تهیه‌اند.
   softwareLinks:
@@ -257,7 +257,7 @@
       جمع‌آوری می‌کنند و امکان ردیابی تهاجمی می‌دهند. برای امنیت بهتر Firefox به چند تغییر نیاز دارد؛ مثل
       [arkenfox](https://github.com/arkenfox/user.js/wiki) یا تنظیمات user.js
       [12byte](https://12bytes.org/firefox-configuration-guide-for-privacy-freaks-and-performance-buffs/).
-      بیشتر بخوانید: [مرورگرهای حریم‌خصوصی](https://github.com/Lissy93/awesome-privacy#browsers).
+      بیشتر بخوانید: [مرورگرهای حریم‌خصوصی](https://awesome-privacy.xyz#browsers).
 
   - point: استفاده از موتور جست‌وجوی خصوصی
     priority: Essential
@@ -502,13 +502,13 @@
       می‌خواهید نهایت سخت‌گیری را داشته باشید، سطح حمله را کم می‌کند.
   softwareLinks:
     - title: مرورگرهای حریم‌خصوصی
-      url: https://github.com/Lissy93/awesome-privacy#browsers
+      url: https://awesome-privacy.xyz#browsers
     - title: موتورهای جست‌وجو
-      url: https://github.com/Lissy93/awesome-privacy#search-engines
+      url: https://awesome-privacy.xyz#search-engines
     - title: افزونه‌های مرورگر
-      url: https://github.com/Lissy93/awesome-privacy#browser-extensions
+      url: https://awesome-privacy.xyz#browser-extensions
     - title: همگام‌سازی مرورگر و بوکمارک
-      url: https://github.com/Lissy93/awesome-privacy#browser-sync
+      url: https://awesome-privacy.xyz#browser-sync
   color: emerald
 
 - title: ایمیل
@@ -665,13 +665,13 @@
   color: teal
   softwareLinks:
     - title: ارائه‌دهندگان ایمیل امن
-      url: https://github.com/Lissy93/awesome-privacy#encrypted-email
+      url: https://awesome-privacy.xyz#encrypted-email
     - title: فورواردینگ ایمیل
-      url: https://github.com/Lissy93/awesome-privacy#anonymous-mail-forwarding
+      url: https://awesome-privacy.xyz#anonymous-mail-forwarding
     - title: سرورهای ایمیل از پیش پیکربندی‌شده
-      url: https://github.com/Lissy93/awesome-privacy#pre-configured-mail-servers
+      url: https://awesome-privacy.xyz#pre-configured-mail-servers
     - title: کلاینت‌های ایمیل
-      url: https://github.com/Lissy93/awesome-privacy#email-clients
+      url: https://awesome-privacy.xyz#email-clients
 
 - title: پیام‌رسانی
   slug: messaging
@@ -788,9 +788,9 @@
       نمی‌توانید اصالت سیستم را مستقل بررسی کنید.
   softwareLinks:
     - title: پیام‌رسان‌های امن
-      url: https://github.com/Lissy93/awesome-privacy#encrypted-messaging
+      url: https://awesome-privacy.xyz#encrypted-messaging
     - title: پلتفرم‌های پیام‌رسانی همتا به همتا
-      url: https://github.com/Lissy93/awesome-privacy#p2p-messaging
+      url: https://awesome-privacy.xyz#p2p-messaging
   color: cyan
 
 - title: شبکه‌های اجتماعی
@@ -895,13 +895,13 @@
 
   softwareLinks:
     - title: شبکه‌های اجتماعی جایگزین
-      url: https://github.com/Lissy93/awesome-privacy#social-networks
+      url: https://awesome-privacy.xyz#social-networks
     - title: پلتفرم‌های ویدئویی جایگزین
-      url: https://github.com/Lissy93/awesome-privacy#video-platforms
+      url: https://awesome-privacy.xyz#video-platforms
     - title: پلتفرم‌های وبلاگ‌نویسی جایگزین
-      url: https://github.com/Lissy93/awesome-privacy#blogging-platforms
+      url: https://awesome-privacy.xyz#blogging-platforms
     - title: خبرخوان‌ها و گردآوری خبر
-      url: https://github.com/Lissy93/awesome-privacy#news-readers-and-aggregation
+      url: https://awesome-privacy.xyz#news-readers-and-aggregation
   color: blue
 
 - title: شبکه‌ها
@@ -1040,21 +1040,21 @@
   color: violet
   softwareLinks:
   - title: شبکه‌های خصوصی مجازی
-    url: https://github.com/Lissy93/awesome-privacy#virtual-private-networks
+    url: https://awesome-privacy.xyz#virtual-private-networks
   - title: شبکه‌های مخلوط
-    url: https://github.com/Lissy93/awesome-privacy#mix-networks
+    url: https://awesome-privacy.xyz#mix-networks
   - title: فریم‌ور روتر
-    url: https://github.com/Lissy93/awesome-privacy#router-firmware
+    url: https://awesome-privacy.xyz#router-firmware
   - title: پروکسی‌های متن‌باز
-    url: https://github.com/Lissy93/awesome-privacy#proxies
+    url: https://awesome-privacy.xyz#proxies
   - title: ارائه‌دهندگان DNS
-    url: https://github.com/Lissy93/awesome-privacy#dns
+    url: https://awesome-privacy.xyz#dns
   - title: فایروال‌ها
-    url: https://github.com/Lissy93/awesome-privacy#firewalls
+    url: https://awesome-privacy.xyz#firewalls
   - title: ابزارهای تحلیل شبکه
-    url: https://github.com/Lissy93/awesome-privacy#network-analysis
+    url: https://awesome-privacy.xyz#network-analysis
   - title: ابزارهای امنیت شبکه خودمیزبان
-    url: https://github.com/Lissy93/awesome-privacy#self-hosted-network-security
+    url: https://awesome-privacy.xyz#self-hosted-network-security
 
 - title: دستگاه‌های موبایل
   slug: mobile-devices
@@ -1215,11 +1215,11 @@
   color: fuchsia
   softwareLinks:
   - title: اپ‌های موبایل برای امنیت و حریم خصوصی
-    url: https://github.com/Lissy93/awesome-privacy#mobile-apps
+    url: https://awesome-privacy.xyz#mobile-apps
   - title: پیام‌رسانی رمزنگاری‌شده
-    url: https://github.com/Lissy93/awesome-privacy#encrypted-messaging
+    url: https://awesome-privacy.xyz#encrypted-messaging
   - title: سیستم‌عامل‌های موبایل
-    url: https://github.com/Lissy93/awesome-privacy#mobile-operating-systems
+    url: https://awesome-privacy.xyz#mobile-operating-systems
 
 - title: رایانه‌های شخصی
   slug: personal-computers
@@ -1411,19 +1411,19 @@
   color: pink
   softwareLinks:
   - title: سیستم‌عامل‌های امن
-    url: https://github.com/Lissy93/awesome-privacy#desktop-operating-systems
+    url: https://awesome-privacy.xyz#desktop-operating-systems
   - title: دفاع‌های لینوکس
-    url: https://github.com/Lissy93/awesome-privacy#linux-defences
+    url: https://awesome-privacy.xyz#linux-defences
   - title: دفاع‌های ویندوز
-    url: https://github.com/Lissy93/awesome-privacy#windows-defences
+    url: https://awesome-privacy.xyz#windows-defences
   - title: دفاع‌های macOS
-    url: https://github.com/Lissy93/awesome-privacy#mac-os-defences
+    url: https://awesome-privacy.xyz#mac-os-defences
   - title: ضدبدافزار
-    url: https://github.com/Lissy93/awesome-privacy#anti-malware
+    url: https://awesome-privacy.xyz#anti-malware
   - title: فایروال‌ها
-    url: https://github.com/Lissy93/awesome-privacy#firewalls-1
+    url: https://awesome-privacy.xyz#firewalls-1
   - title: رمزنگاری فایل
-    url: https://github.com/Lissy93/awesome-privacy#file-encryption
+    url: https://awesome-privacy.xyz#file-encryption
 
 - title: خانه هوشمند
   slug: smart-home
@@ -1518,9 +1518,9 @@
   color: red
   softwareLinks:
   - title: خودکارسازی خانه
-    url: https://github.com/Lissy93/awesome-privacy#home-automation
+    url: https://awesome-privacy.xyz#home-automation
   - title: دستیارهای صوتی هوش مصنوعی
-    url: https://github.com/Lissy93/awesome-privacy#ai-voice-assistants
+    url: https://awesome-privacy.xyz#ai-voice-assistants
 
 - title: امور مالی شخصی
   slug: personal-finance
@@ -1599,17 +1599,17 @@
   color: purple
   softwareLinks:
   - title: کارت‌های اعتباری مجازی
-    url: https://github.com/Lissy93/awesome-privacy#virtual-credit-cards
+    url: https://awesome-privacy.xyz#virtual-credit-cards
   - title: رمزارزها
-    url: https://github.com/Lissy93/awesome-privacy#cryptocurrencies
+    url: https://awesome-privacy.xyz#cryptocurrencies
   - title: کیف پول‌های رمزارز
-    url: https://github.com/Lissy93/awesome-privacy#crypto-wallets
+    url: https://awesome-privacy.xyz#crypto-wallets
   - title: صرافی‌های رمزارز
-    url: https://github.com/Lissy93/awesome-privacy#crypto-exchanges
+    url: https://awesome-privacy.xyz#crypto-exchanges
   - title: روش‌های پرداخت دیگر
-    url: https://github.com/Lissy93/awesome-privacy#other-payment-methods
+    url: https://awesome-privacy.xyz#other-payment-methods
   - title: ابزارهای بودجه‌بندی
-    url: https://github.com/Lissy93/awesome-privacy#budgeting-tools
+    url: https://awesome-privacy.xyz#budgeting-tools
 
 - title: جنبه انسانی
   slug: human-aspect

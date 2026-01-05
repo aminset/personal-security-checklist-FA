@@ -2,7 +2,7 @@
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://github.com/zbetcheckin/Security_list)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![License](https://img.shields.io/badge/LICENSE-CC_BY_4.0-00a2ff?&style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
-[![Contributors](https://img.shields.io/github/contributors/lissy93/personal-security-checklist?color=%23ffa900&style=flat-square)](https://github.com/Lissy93/personal-security-checklist/graphs/contributors)
+[![Contributors](https://img.shields.io/github/contributors/hamid-k/personal-security-checklist-FA?color=%23ffa900&style=flat-square)](https://github.com/hamid-k/personal-security-checklist-FA/graphs/contributors)
 
 <p align="center"><img src="https://i.ibb.co/rGQK71g/personal-security-checklist-6.png" /></p>
 
@@ -23,11 +23,11 @@
 [<img src="https://i.ibb.co/KVPV1Lk/10-human-36x36.png" width="28" height="28" /> Human Aspect](#sensible-computing)<br>
 [<img src="https://i.ibb.co/9NbhBww/11-physical-36x36.png" width="28" height="28" /> Physical Security](#physical-security)<br>
 
-Too long? 🦒 See the [TLDR version](https://github.com/Lissy93/personal-security-checklist/blob/HEAD/articles/2_TLDR_Short_List.md) instead.
+Too long? 🦒 See the [TLDR version](https://github.com/hamid-k/personal-security-checklist-FA/blob/HEAD/articles/2_TLDR_Short_List.md) instead.
 
-For a list of privacy-respecting software, check out [Awesome-Privacy](https://github.com/lissy93/awesome-privacy).
+For a list of privacy-respecting software, check out [Awesome-Privacy](https://awesome-privacy.xyz).
 
-A mirror of this repo is available at [codeberg.org/alicia/personal-security-checklist](https://codeberg.org/alicia/personal-security-checklist).
+This Farsi translation is maintained by Hamid K and is based on the original work by Alicia Sykes.
 
 ---
 
@@ -42,9 +42,9 @@ Most reported data breaches are caused by the use of weak, default, or stolen pa
 **Don't Reuse Passwords** | Essential | If someone were to reuse a password and one site they had an account with suffered a leak, then a criminal could easily gain unauthorized access to their other accounts. This is usually done through large-scale automated login requests, and it is called Credential Stuffing. Unfortunately, this is all too common, but it's simple to protect against — use a different password for each of your online accounts.
 **Use a Secure Password Manager** | Essential | For most people, it is going to be near-impossible to remember hundreds of strong and unique passwords. A password manager is an application that generates, stores, and auto-fills your login credentials for you. All your passwords will be encrypted against 1 master password (which you must remember, and it should be very strong). Most password managers have browser extensions and mobile apps, so whatever device you are on, your passwords can be auto-filled. A good all-rounder is [Bitwarden](https://awesome-privacy.xyz/essentials/password-managers/bitwarden), or see [Recommended Password Managers](https://awesome-privacy.xyz/essentials/password-managers).
 **Avoid Sharing Passwords** | Essential | While there may be times that you need to share access to an account with another person, you should generally avoid doing this because it makes it easier for the account to become compromised. If you absolutely do need to share a password — for example, when working on a team with a shared account — this should be done via features built into a password manager.
-**Enable 2-Factor Authentication** | Essential | 2FA is where you must provide both something you know (a password) and something you have (such as a code on your phone) to log in. This means that if anyone has your password (e.g., through phishing, malware, or a data breach), they will not be able to log into your account. It's easy to get started, download [an authenticator app](https://github.com/Lissy93/awesome-privacy#2-factor-authentication) onto your phone, and then go to your account security settings and follow the steps to enable 2FA. Next time you log in on a new device, you will be prompted for the code that is displayed in the app on your phone (it works without internet, and the code usually changes every 30 seconds).
+**Enable 2-Factor Authentication** | Essential | 2FA is where you must provide both something you know (a password) and something you have (such as a code on your phone) to log in. This means that if anyone has your password (e.g., through phishing, malware, or a data breach), they will not be able to log into your account. It's easy to get started, download [an authenticator app](https://awesome-privacy.xyz#2-factor-authentication) onto your phone, and then go to your account security settings and follow the steps to enable 2FA. Next time you log in on a new device, you will be prompted for the code that is displayed in the app on your phone (it works without internet, and the code usually changes every 30 seconds).
 **Keep Backup Codes Safe** | Essential | When you enable multi-factor authentication, you will usually be given several codes that you can use if your 2FA method is lost, broken, or unavailable. Keep these codes somewhere safe to prevent loss or unauthorized access. You should store these on paper or in a safe place on disk (e.g., in offline storage or an encrypted file/drive). Don't store these in your password manager as 2FA sources and passwords should be kept separately.
-**Sign Up for Breach Alerts** | Optional | After a website suffers a significant data breach, the leaked data often ends up on the internet. Several websites collect these leaked records and allow you to search your email address to check if you are in any of their lists. [Firefox Monitor](https://monitor.firefox.com), [Have I Been Pwned](https://haveibeenpwned.com), and [DeHashed](https://dehashed.com) allow you to sign up for monitoring, where they will notify you if your email address appears in any new data sets. It is useful to know as soon as possible when this happens so that you can change your passwords for the affected accounts. [Have i been pwned](https://awesome-privacy.xyz/security-tools/online-tools/have-i-been-pwned) also has domain-wide notification, where you can receive alerts if any email addresses under your entire domain appear (useful if you use aliases for [anonymous forwarding](https://github.com/Lissy93/awesome-privacy#anonymous-mail-forwarding)).
+**Sign Up for Breach Alerts** | Optional | After a website suffers a significant data breach, the leaked data often ends up on the internet. Several websites collect these leaked records and allow you to search your email address to check if you are in any of their lists. [Firefox Monitor](https://monitor.firefox.com), [Have I Been Pwned](https://haveibeenpwned.com), and [DeHashed](https://dehashed.com) allow you to sign up for monitoring, where they will notify you if your email address appears in any new data sets. It is useful to know as soon as possible when this happens so that you can change your passwords for the affected accounts. [Have i been pwned](https://awesome-privacy.xyz/security-tools/online-tools/have-i-been-pwned) also has domain-wide notification, where you can receive alerts if any email addresses under your entire domain appear (useful if you use aliases for [anonymous forwarding](https://awesome-privacy.xyz#anonymous-mail-forwarding)).
 **Shield your Password/PIN** | Optional | When typing your password in public places, ensure you are not in direct line of sight of a CCTV camera and that no one can see over your shoulder. Cover your password or pin code while you type, and do not reveal any plain text passwords on your screen.
 **Update Critical Passwords Periodically** | Optional | Database leaks and breaches are common, and, likely, several of your passwords are already somewhere online. Occasionally updating passwords of security-critical accounts can help mitigate this. But providing that all your passwords are long, strong, and unique, there is no need to do this too often — annually should be sufficient. Enforcing mandatory password changes within organisations is [no longer recommended](https://duo.com/decipher/microsoft-will-no-longer-recommend-forcing-periodic-password-changes), as it encourages colleagues to select weaker passwords.
 **Don’t Save your Password in Browsers** | Optional | Most modern browsers offer to save your credentials when you log into a site. Don’t allow this, as they are not always encrypted and could allow someone to gain access to your accounts. Instead, use a dedicated password manager to store (and auto-fill) your passwords.
@@ -53,12 +53,12 @@ Most reported data breaches are caused by the use of weak, default, or stolen pa
 **Never Answer Online Security Questions Truthfully** | Optional | If a site asks security questions (such as place of birth, mother's maiden name, or first car, etc.), don't provide real answers. It is a trivial task for hackers to find out this information online or through social engineering. Instead, create a fictitious answer, and store it inside your password manager. Using real words is better than random characters, as [explained here](https://news.ycombinator.com/item?id=29244870).
 **Don’t Use a 4-digit PIN** | Optional | Don’t use a short PIN to access your smartphone or computer. Instead, use a text password or a much longer PIN. Numeric passphrases are easy to crack (A 4-digit pin has 10,000 combinations, compared to 7.4 million for a 4-character alpha-numeric code).
 **Avoid Using SMS for 2FA** | Optional | When enabling multi-factor authentication, opt for app-based codes or a hardware token if supported. SMS is susceptible to several common threats, such as [SIM-swapping](https://www.maketecheasier.com/sim-card-hijacking) and [interception](https://secure-voice.com/ss7_attacks). There's also no guarantee of how securely your phone number will be stored or what else it will be used for. From a practical point of view, SMS will only work when you have a signal and can be slow. If a website or service requires the usage of an SMS number for recovery, consider purchasing a second pre-paid phone number only used for account recovery for these instances.
-**Avoid Using your PM to Generate OTPs** | Advanced | Many password managers are also able to generate 2FA codes. It is best not to use your primary password manager as your 2FA authenticator as well, since it would become a single point of failure if compromised. Instead, use a dedicated [authenticator app](https://github.com/Lissy93/awesome-privacy#2-factor-authentication) on your phone or laptop.
+**Avoid Using your PM to Generate OTPs** | Advanced | Many password managers are also able to generate 2FA codes. It is best not to use your primary password manager as your 2FA authenticator as well, since it would become a single point of failure if compromised. Instead, use a dedicated [authenticator app](https://awesome-privacy.xyz#2-factor-authentication) on your phone or laptop.
 **Avoid Face Unlock** | Advanced | Most phones and laptops offer a facial recognition authentication feature, using the camera to compare a snapshot of your face with a stored hash. It may be very convenient, but there are numerous ways to [fool it](https://www.forbes.com/sites/jvchamary/2017/09/18/security-apple-face-id-iphone-x/) and gain access to the device through digital photos and reconstructions from CCTV footage. Unlike your password, there are likely photos of your face on the internet and videos recorded by surveillance cameras.
 **Watch Out for Keyloggers** | Advanced | A hardware [keylogger](https://en.wikipedia.org/wiki/Hardware_keylogger) is a physical device planted between your keyboard and the USB port, which intercepts all keystrokes and sometimes relays data to a remote server. It gives a hacker access to everything typed, including passwords. The best way to stay protected is just by checking your USB connection after your PC has been unattended. It is also possible for keyloggers to be planted inside the keyboard housing, so look for any signs that the case has been tampered with, and consider bringing your own keyboard to work. Data typed on a virtual keyboard, pasted from the clipboard, or auto-filled by a password manager can not be intercepted by a hardware keylogger.
 **Consider a Hardware Token** | Advanced | A U2F/FIDO2 security key is a USB (or NFC) device that you insert while logging in to an online service to verify your identity instead of entering a OTP from your authenticator. [SoloKey](https://solokeys.com) and [NitroKey](https://www.nitrokey.com) are examples of such keys. They bring with them several security benefits. Since the browser communicates directly with the device, it cannot be fooled as to which host is requesting authentication because the TLS certificate is checked. [This post](https://security.stackexchange.com/a/71704) is a good explanation of the security of using FIDO U2F tokens. Of course, it is important to store the physical key somewhere safe or keep it on your person. Some online accounts allow for several methods of 2FA to be enabled.
 **Consider Offline Password Manager** | Advanced | For increased security, an encrypted offline password manager will give you full control over your data. [KeePass](https://awesome-privacy.xyz/essentials/password-managers/keepass) is a popular choice, with lots of [plugins](https://[KeePass](https://awesome-privacy.xyz/essentials/password-managers/keepass).info/plugins.html) and community forks with additional compatibility and functionality. Popular clients include: [KeePassXC](https://keepassxc.org) (desktop), [KeePassDX](https://www.keepassdx.com) (Android) and [StrongBox](https://apps.apple.com/us/app/strongbox-password-safe/id897283731) (iOS). The drawback being that it may be slightly less convenient for some, and it will be up to you to back it up and store it securely.
-**Consider Unique Usernames** | Advanced | Having different passwords for each account is a good first step, but if you also use a unique username, email, or phone number to log in, then it will be significantly harder for anyone trying to gain unauthorised access. The easiest method for multiple emails, is using auto-generated aliases for anonymous mail forwarding. This is where [anything]@yourdomain.com will arrive in your inbox, allowing you to use a different email for each account (see [Mail Alias Providers](https://github.com/Lissy93/awesome-privacy#mail-forwarding)). Usernames are easier since you can use your password manager to generate, store, and auto-fill these. Virtual phone numbers can be generated through your VOIP provider.
+**Consider Unique Usernames** | Advanced | Having different passwords for each account is a good first step, but if you also use a unique username, email, or phone number to log in, then it will be significantly harder for anyone trying to gain unauthorised access. The easiest method for multiple emails, is using auto-generated aliases for anonymous mail forwarding. This is where [anything]@yourdomain.com will arrive in your inbox, allowing you to use a different email for each account (see [Mail Alias Providers](https://awesome-privacy.xyz#mail-forwarding)). Usernames are easier since you can use your password manager to generate, store, and auto-fill these. Virtual phone numbers can be generated through your VOIP provider.
 
 ### Recommended Software
 - [Password Managers](https://awesome-privacy.xyz/essentials/password-managers)
@@ -78,7 +78,7 @@ This section outlines the steps you can take, to be better protected from threat
 **Block Ads** | Essential | Using an ad-blocker can help improve your privacy, by blocking the trackers that ads implement. [uBlock Origin](https://awesome-privacy.xyz/networking/ad-blockers/ublock-origin) is a very efficient and open source browser addon, developed by Raymond Hill. When 3rd-party ads are displayed on a webpage, they have the ability to track you, gathering personal information about you and your habits, which can then be sold, or used to show you more targeted ads, and some ads are plain malicious or fake. Blocking ads also makes pages load faster, uses less data and provides a less cluttered experience.
 **Ensure Website is Legitimate** | Basic | It may sound obvious, but when you logging into any online accounts, double check the URL is correct. Storing commonly visited sites in your bookmarks is a good way to ensure the URL is easy to find. When visiting new websites, look for common signs that it could be unsafe: Browser warnings, redirects, on-site spam and pop-ups. You can also check a website using a tool, such as: [Virus Total](https://awesome-privacy.xyz/security-tools/online-tools/virus-total), [IsLegitSite](https://www.islegitsite.com), [Google Safe Browsing Status](https://transparencyreport.google.com/safe-browsing/search) if you are unsure.
 **Watch out for Browser Malware** | Basic | Your system or browser can be compromised by spyware, miners, browser hijackers, malicious redirects, adware etc. You can usually stay protected, just by: ignoring pop-ups, be wary of what your clicking, don't proceed to a website if your browser warns you it may be malicious. Common signs of browser malware include: default search engine or homepage has been modified, toolbars, unfamiliar extensions or icons, significantly more ads, errors and pages loading much slower than usual. These articles from Heimdal explain [signs of browser malware](https://heimdalsecurity.com/blog/warning-signs-operating-system-infected-malware), [how browsers get infected](https://heimdalsecurity.com/blog/practical-online-protection-where-malware-hides) and [how to remove browser malware](https://heimdalsecurity.com/blog/malware-removal).
-**Use a Privacy-Respecting Browser** | Essential | [Firefox](https://awesome-privacy.xyz/essentials/browsers/firefox) (with a few tweaks) and [Brave](https://awesome-privacy.xyz/essentials/browsers/brave-browser) are secure, private-respecting browsers. Both are fast, open source, user-friendly and available on all major operating systems. Your browser has access to everything that you do online, so if possible, avoid Google Chrome, Edge and Safari as (without correct configuration) all three of them, collect usage data, call home and allow for invasive tracking. Firefox requires a few changes to achieve optimal security, for example - [arkenfox](https://github.com/arkenfox/user.js/wiki) or [12byte](https://12bytes.org/firefox-configuration-guide-for-privacy-freaks-and-performance-buffs/)'s user.js configs. See more: [Privacy Browsers](https://github.com/Lissy93/awesome-privacy#browsers).
+**Use a Privacy-Respecting Browser** | Essential | [Firefox](https://awesome-privacy.xyz/essentials/browsers/firefox) (with a few tweaks) and [Brave](https://awesome-privacy.xyz/essentials/browsers/brave-browser) are secure, private-respecting browsers. Both are fast, open source, user-friendly and available on all major operating systems. Your browser has access to everything that you do online, so if possible, avoid Google Chrome, Edge and Safari as (without correct configuration) all three of them, collect usage data, call home and allow for invasive tracking. Firefox requires a few changes to achieve optimal security, for example - [arkenfox](https://github.com/arkenfox/user.js/wiki) or [12byte](https://12bytes.org/firefox-configuration-guide-for-privacy-freaks-and-performance-buffs/)'s user.js configs. See more: [Privacy Browsers](https://awesome-privacy.xyz#browsers).
 **Use a Private Search Engine** | Essential | Using a privacy-preserving, non-tracking search engine, will reduce risk that your search terms are not logged, or used against you. Consider [DuckDuckGo](https://awesome-privacy.xyz/essentials/search-engines/duckduckgo), or [Qwant](https://awesome-privacy.xyz/essentials/search-engines/qwant). Google implements some [incredibly invasive](https://hackernoon.com/data-privacy-concerns-with-google-b946f2b7afea) tracking policies, and have a history of displaying [biased search results](https://www.businessinsider.com/evidence-that-google-search-results-are-biased-2014-10). Therefore Google, along with Bing, Baidu, Yahoo and Yandex are incompatible with anyone looking to protect their privacy. It is recommended to update your [browsers default search](https://duckduckgo.com/install) to a privacy-respecting search engine.
 **Remove Unnecessary Browser Addons** | Essential | Extensions are able to see, log or modify anything you do in the browser, and some innocent looking browser apps, have malicious intentions. Websites can see which extensions you have installed, and may use this to enhance your fingerprint, to more accurately identify/ track you. Both [Firefox](https://awesome-privacy.xyz/essentials/browsers/firefox) and Chrome web stores allow you to check what permissions/access rights an extension requires before you install it. Check the reviews. Only install extensions you really need, and removed those which you haven't used in a while.
 **Keep Browser Up-to-date** | Essential | Browser vulnerabilities are constantly being [discovered](https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=browser) and patched, so it’s important to keep it up to date, to avoid a zero-day exploit. You can [see which browser version you're using here](https://www.whatismybrowser.com/), or follow [this guide](https://www.whatismybrowser.com/guides/how-to-update-your-browser/) for instructions on how to update. Some browsers will auto-update to the latest stable version.
@@ -116,9 +116,9 @@ This section outlines the steps you can take, to be better protected from threat
 **Disable JavaScript** | Advanced | Many modern web apps are JavaScript-based, so disabling it will greatly decrease your browsing experience. But if you really want to go all out, then it will really reduce your attack surface.
 
 ### Recommended Software
-- [Privacy Browsers](https://github.com/Lissy93/awesome-privacy#browsers)
-- [Browser Extensions](https://github.com/Lissy93/awesome-privacy#browser-extensions)
-- [Browser & Bookmark Sync](https://github.com/Lissy93/awesome-privacy#browser-sync)
+- [Privacy Browsers](https://awesome-privacy.xyz#browsers)
+- [Browser Extensions](https://awesome-privacy.xyz#browser-extensions)
+- [Browser & Bookmark Sync](https://awesome-privacy.xyz#browser-sync)
 
 
 ## Email
@@ -154,10 +154,10 @@ The big companies providing "free" email service, don't have a good reputation f
 **Maintain IP Blacklist** | Advanced | For self-hosted mail servers, you can improve spam filters and harden security, through maintaining an up-to-date local IP blacklist and a spam URI realtime block lists to filter out malicious hyperlinks.
 
 ### Recommended Software
-- [Secure Email Providers](https://github.com/Lissy93/awesome-privacy#encrypted-email)
-- [Mail Forwarding](https://github.com/Lissy93/awesome-privacy#anonymous-mail-forwarding)
-- [Pre-Configured Mail Servers](https://github.com/Lissy93/awesome-privacy#pre-configured-mail-servers)
-- [Email Clients](https://github.com/Lissy93/awesome-privacy#email-clients)
+- [Secure Email Providers](https://awesome-privacy.xyz#encrypted-email)
+- [Mail Forwarding](https://awesome-privacy.xyz#anonymous-mail-forwarding)
+- [Pre-Configured Mail Servers](https://awesome-privacy.xyz#pre-configured-mail-servers)
+- [Email Clients](https://awesome-privacy.xyz#email-clients)
 
 
 ## Messaging
@@ -187,8 +187,8 @@ The big companies providing "free" email service, don't have a good reputation f
 **Consider a Decentralized Platform** | Advanced | If all data flows through a central provider, you have to trust them with your data and meta-data. You cannot verify that the system running is authentic without back doors.
 
 ### Recommended Software
-- [Secure Messaging Apps](https://github.com/Lissy93/awesome-privacy#encrypted-messaging)
-- [P2P Messaging Platforms](https://github.com/Lissy93/awesome-privacy#p2p-messaging)
+- [Secure Messaging Apps](https://awesome-privacy.xyz#encrypted-messaging)
+- [P2P Messaging Platforms](https://awesome-privacy.xyz#p2p-messaging)
 
 
 ## Social Media
@@ -216,10 +216,10 @@ Secure your account, lock down your privacy settings, but know that even after d
 **Don’t have any social media accounts** | Advanced | Social media is fundamentally un-private, so for maximum online security and privacy, avoid using any mainstream social networks.
 
 ### Recommended Software
-- [Alternative Social Media](https://github.com/Lissy93/awesome-privacy#social-networks)
-- [Alternative Video Platforms](https://github.com/Lissy93/awesome-privacy#video-platforms)
-- [Alternative Blogging Platforms](https://github.com/Lissy93/awesome-privacy#blogging-platforms)
-- [News Readers and Aggregation](https://github.com/Lissy93/awesome-privacy#news-readers-and-aggregation)
+- [Alternative Social Media](https://awesome-privacy.xyz#social-networks)
+- [Alternative Video Platforms](https://awesome-privacy.xyz#video-platforms)
+- [Alternative Blogging Platforms](https://awesome-privacy.xyz#blogging-platforms)
+- [News Readers and Aggregation](https://awesome-privacy.xyz#news-readers-and-aggregation)
 
 
 ## Networks
@@ -256,14 +256,14 @@ This section covers how you connect your devices to the internet securely, inclu
 **Disable WiFi on all Devices** | Advanced | Connecting to even a secure WiFi network increases your attack surface. Disabling your home WiFi and connect each device via Ethernet.
 
 ### Recommended Software
-- [Virtual Private Networks](https://github.com/Lissy93/awesome-privacy#virtual-private-networks)
-- [Mix Networks](https://github.com/Lissy93/awesome-privacy#mix-networks)
-- [Router Firmware](https://github.com/Lissy93/awesome-privacy#router-firmware)
-- [Open Source Proxies](https://github.com/Lissy93/awesome-privacy#proxies)
-- [DNS Providers](https://github.com/Lissy93/awesome-privacy#dns)
-- [Firewalls](https://github.com/Lissy93/awesome-privacy#firewalls)
-- [Network Analysis Tools](https://github.com/Lissy93/awesome-privacy#network-analysis)
-- [Self-Hosted Network Security Tools](https://github.com/Lissy93/awesome-privacy#self-hosted-network-security)
+- [Virtual Private Networks](https://awesome-privacy.xyz#virtual-private-networks)
+- [Mix Networks](https://awesome-privacy.xyz#mix-networks)
+- [Router Firmware](https://awesome-privacy.xyz#router-firmware)
+- [Open Source Proxies](https://awesome-privacy.xyz#proxies)
+- [DNS Providers](https://awesome-privacy.xyz#dns)
+- [Firewalls](https://awesome-privacy.xyz#firewalls)
+- [Network Analysis Tools](https://awesome-privacy.xyz#network-analysis)
+- [Self-Hosted Network Security Tools](https://awesome-privacy.xyz#self-hosted-network-security)
 
 
 ## Mobile Devices
@@ -302,9 +302,9 @@ More of us are concerned about how [governments use collect and use our smart ph
 **Consider running a custom ROM (Android)** | Advanced | If you're concerned about your device manufacturer collecting too much personal information, consider a privacy-focused custom ROM.
 
 ### Recommended Software
-- [Mobile Apps, for Security + Privacy](https://github.com/Lissy93/awesome-privacy#mobile-apps)
-- [Encrypted Messaging](https://github.com/Lissy93/awesome-privacy#encrypted-messaging)
-- [Mobile Operation Systems](https://github.com/Lissy93/awesome-privacy#mobile-operating-systems)
+- [Mobile Apps, for Security + Privacy](https://awesome-privacy.xyz#mobile-apps)
+- [Encrypted Messaging](https://awesome-privacy.xyz#encrypted-messaging)
+- [Mobile Operation Systems](https://awesome-privacy.xyz#mobile-operating-systems)
 
 
 ## Personal Computers
@@ -351,13 +351,13 @@ Although Windows and OS X are easy to use and convenient, they both are far from
 **Use Canary Tokens** | Advanced | Deploy canary tokens to detect unauthorized access to your files or emails faster and gather information about the intruder.
 
 ### Recommended Software
-- [Secure Operating Systems](https://github.com/Lissy93/awesome-privacy#desktop-operating-systems)
-- [Linux Defenses](https://github.com/Lissy93/awesome-privacy#linux-defences)
-- [Windows Defenses](https://github.com/Lissy93/awesome-privacy#windows-defences)
-- [Mac OS Defenses](https://github.com/Lissy93/awesome-privacy#mac-os-defences)
-- [Anti-Malware](https://github.com/Lissy93/awesome-privacy#anti-malware)
-- [Firewalls](https://github.com/Lissy93/awesome-privacy#firewalls-1)
-- [File Encryption](https://github.com/Lissy93/awesome-privacy#file-encryption)
+- [Secure Operating Systems](https://awesome-privacy.xyz#desktop-operating-systems)
+- [Linux Defenses](https://awesome-privacy.xyz#linux-defences)
+- [Windows Defenses](https://awesome-privacy.xyz#windows-defences)
+- [Mac OS Defenses](https://awesome-privacy.xyz#mac-os-defences)
+- [Anti-Malware](https://awesome-privacy.xyz#anti-malware)
+- [Firewalls](https://awesome-privacy.xyz#firewalls-1)
+- [File Encryption](https://awesome-privacy.xyz#file-encryption)
 
 
 ## Smart Home
@@ -383,8 +383,8 @@ The most privacy-respecting option, would be to not use "smart" internet-connect
 **Assess risks** | Advanced | Consider the privacy implications for all household members and adjust device settings for security and privacy, such as disabling devices at certain times.
 
 ### Recommended Software
-- [Home Automation](https://github.com/Lissy93/awesome-privacy#home-automation)
-- [AI Voice Assistants](https://github.com/Lissy93/awesome-privacy#ai-voice-assistants)
+- [Home Automation](https://awesome-privacy.xyz#home-automation)
+- [AI Voice Assistants](https://awesome-privacy.xyz#ai-voice-assistants)
 
 
 ## Personal Finance
@@ -406,12 +406,12 @@ Note about credit cards: Credit cards have technological methods in place to det
 **Use alternate delivery address** | Advanced | Opt for deliveries to non-personal addresses such as PO Boxes, forwarding addresses, or local pickup locations to avoid linking purchases directly to you.
 
 ### Recommended Software
-- [Virtual Credit Cards](https://github.com/Lissy93/awesome-privacy#virtual-credit-cards)
-- [Cryptocurrencies](https://github.com/Lissy93/awesome-privacy#cryptocurrencies)
-- [Crypto Wallets](https://github.com/Lissy93/awesome-privacy#crypto-wallets)
-- [Crypto Exchanges](https://github.com/Lissy93/awesome-privacy#crypto-exchanges)
-- [Other Payment Methods](https://github.com/Lissy93/awesome-privacy#other-payment-methods)
-- [Budgeting Tools](https://github.com/Lissy93/awesome-privacy#budgeting-tools)
+- [Virtual Credit Cards](https://awesome-privacy.xyz#virtual-credit-cards)
+- [Cryptocurrencies](https://awesome-privacy.xyz#cryptocurrencies)
+- [Crypto Wallets](https://awesome-privacy.xyz#crypto-wallets)
+- [Crypto Exchanges](https://awesome-privacy.xyz#crypto-exchanges)
+- [Other Payment Methods](https://awesome-privacy.xyz#other-payment-methods)
+- [Budgeting Tools](https://awesome-privacy.xyz#budgeting-tools)
 
 
 ## Human Aspect
@@ -483,14 +483,14 @@ personal documents to trace the source of a breach.
 ----
 
 #### There's an interactive version!
-- [Digital Defense](https://digital-defense.io) - View details, check items of, and track your progress
+- [Personal Security Checklist (FA)](https://hamid-k.github.io/personal-security-checklist-FA/) - View details, check items off, and track your progress
 
 #### Other Awesome Security Lists
 - @sbilly/[awesome-security](https://github.com/sbilly/awesome-security)
 - @0x4D31/[awesome-threat-detection](https://github.com/0x4D31/awesome-threat-detection)
 - @hslatman/[awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence)
 - @PaulSec/[awesome-sec-talks](https://github.com/PaulSec/awesome-sec-talks)
-- @Lissy93/[awesome-privacy](https://github.com/lissy93/awesime-privacy)
+- Awesome Privacy (https://awesome-privacy.xyz)
 - @Zbetcheckin/[security_list](https://github.com/zbetcheckin/Security_list)
 - Michael Horowitz / [defensivecomputingchecklist.com](https://defensivecomputingchecklist.com/)
 
@@ -500,39 +500,20 @@ personal documents to trace the source of a breach.
 
 ## Notes
 
-*Thanks for visiting, hope you found something useful here :) Contributions are welcome, and much appreciated - to propose an edit [raise an issue](https://github.com/Lissy93/personal-security-checklist/issues/new/choose), or [open a PR](https://github.com/Lissy93/personal-security-checklist/pull/new/master). See: [`CONTRIBUTING.md`](/.github/CONTRIBUTING.md).*
+*Thanks for visiting, hope you found something useful here :) Contributions are welcome, and much appreciated - to propose an edit [raise an issue](https://github.com/hamid-k/personal-security-checklist-FA/issues/new/choose), or [open a PR](https://github.com/hamid-k/personal-security-checklist-FA/pull/new/master). See: [`CONTRIBUTING.md`](/.github/CONTRIBUTING.md).*
 
 *Disclaimer: This is not an exhaustive list, and aims only to be taken as guide.*
 
-*Licensed under [Creative Commons, CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), © [Alicia Sykes](https://aliciasykes.com) 2020*
+*Licensed under [Creative Commons, CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), © Alicia Sykes 2020*
 
 [![Attribution 4.0 International](https://licensebuttons.net/l/by/3.0/88x31.png)](/LICENSE.md)
 
 ---
 
-Help support the continued development of this project 💖
-
-[![Sponsor Lissy93 on GitHub](https://img.shields.io/badge/Sponsor_on_GitHub-Lissy93-%23ff4dda?style=for-the-badge&logo=githubsponsors&logoColor=ff4dda)](https://github.com/sponsors/Lissy93)
-
-----
-
 Found this helpful? Consider sharing it with others, to help them also improve their digital security 😇
 
-[![Share on Twitter](https://img.shields.io/badge/Share-Twitter-17a2f3?style=for-the-badge&logo=Twitter)](http://twitter.com/share?text=Check%20out%20the%20Personal%20Cyber%20Security%20Checklist-%20an%20ultimate%20list%20of%20tips%20for%20protecting%20your%20digital%20security%20and%20privacy%20in%202020%2C%20with%20%40Lissy_Sykes%20%F0%9F%94%90%20%20%F0%9F%9A%80&url=https://github.com/Lissy93/personal-security-checklist)
+[![Share on Twitter](https://img.shields.io/badge/Share-Twitter-17a2f3?style=for-the-badge&logo=Twitter)](http://twitter.com/share?text=Check%20out%20the%20Personal%20Cyber%20Security%20Checklist-%20an%20ultimate%20list%20of%20tips%20for%20protecting%20your%20digital%20security%20and%20privacy%20in%202020%2C%20with%20%40hamid_k%20%F0%9F%94%90%20%20%F0%9F%9A%80&url=https://github.com/hamid-k/personal-security-checklist-FA)
 [![Share on LinkedIn](https://img.shields.io/badge/Share-LinkedIn-0077b5?style=for-the-badge&logo=LinkedIn)](
-http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/Lissy93/personal-security-checklist&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=https://github.com/Lissy93)
-[![Share on Facebook](https://img.shields.io/badge/Share-Facebook-4267b2?style=for-the-badge&logo=Facebook)](https://www.linkedin.com/shareArticle?mini=true&url=https%3A//github.com/Lissy93/personal-security-checklist&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=)
-[![Share on Mastodon](https://img.shields.io/badge/Share-Mastodon-56a7e1?style=for-the-badge&logo=Mastodon)](https://mastodon.social/web/statuses/new?text=Check%20out%20the%20Ultimate%20Personal%20Cyber%20Security%20Checklist%20by%20%40Lissy93%20on%20%23GitHub%20%20%F0%9F%94%90%20%E2%9C%A8)
-
----
-
-Get in touch 📬
-
-[![Alicia Sykes on Twitter](https://img.shields.io/twitter/follow/Lissy_Sykes?style=social&logo=twitter)](https://twitter.com/Lissy_Sykes)
-[![Alicia Sykes on GitHub](https://img.shields.io/github/followers/lissy93?label=Lissy93&style=social)](https://github.com/Lissy93)
-[![Alicia Sykes on Mastodon](https://img.shields.io/mastodon/follow/1032965?domain=https%3A%2F%2Fmastodon.social)](https://mastodon.social/web/accounts/1032965)
-[![Alicia Sykes on Keybase](https://img.shields.io/badge/aliciasykes--lightgrey?style=social&logo=Keybase)](https://keybase.io/aliciasykes)
-[![Alicia Sykes's PGP](https://img.shields.io/badge/PGP--lightgrey?style=social&logo=Let%E2%80%99s%20Encrypt)](https://keybase.io/aliciasykes/pgp_keys.asc)
-[![Alicia Sykes's Website](https://img.shields.io/badge/aliciasykes.com--lightgrey?style=social&logo=Tencent%20QQ)](https://aliciasykes.com)
-
----
+http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/hamid-k/personal-security-checklist-FA&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=https://github.com/hamid-k)
+[![Share on Facebook](https://img.shields.io/badge/Share-Facebook-4267b2?style=for-the-badge&logo=Facebook)](https://www.linkedin.com/shareArticle?mini=true&url=https%3A//github.com/hamid-k/personal-security-checklist-FA&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=)
+[![Share on Mastodon](https://img.shields.io/badge/Share-Mastodon-56a7e1?style=for-the-badge&logo=Mastodon)](https://mastodon.social/web/statuses/new?text=Check%20out%20the%20Ultimate%20Personal%20Cyber%20Security%20Checklist%20by%20%40hamid-k%20on%20%23GitHub%20%20%F0%9F%94%90%20%E2%9C%A8)

@@ -2,7 +2,7 @@
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://github.com/zbetcheckin/Security_list)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![License](https://img.shields.io/badge/LICENSE-CC_BY_4.0-00a2ff?&style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
-[![Contributors](https://img.shields.io/github/contributors/lissy93/personal-security-checklist?color=%23ffa900&style=flat-square)](https://github.com/Lissy93/personal-security-checklist/graphs/contributors)
+[![Contributors](https://img.shields.io/github/contributors/hamid-k/personal-security-checklist-FA?color=%23ffa900&style=flat-square)](https://github.com/hamid-k/personal-security-checklist-FA/graphs/contributors)
 
 <p align="center"><img src="https://i.ibb.co/rGQK71g/personal-security-checklist-6.png" /></p>
 
@@ -23,11 +23,11 @@
 [<img src="https://i.ibb.co/KVPV1Lk/10-human-36x36.png" width="28" height="28" /> جنبه انسانی](#جنبه-انسانی)<br>
 [<img src="https://i.ibb.co/9NbhBww/11-physical-36x36.png" width="28" height="28" /> امنیت فیزیکی](#امنیت-فیزیکی)<br>
 
-زیادی طولانی است؟ 🦒 نسخه [خلاصه (TLDR)](https://github.com/Lissy93/personal-security-checklist/blob/HEAD/articles/2_TLDR_Short_List.md) را ببینید.
+زیادی طولانی است؟ 🦒 نسخه [خلاصه (TLDR)](https://github.com/hamid-k/personal-security-checklist-FA/blob/HEAD/articles/2_TLDR_Short_List.md) را ببینید.
 
-برای فهرست نرم‌افزارهای سازگار با حریم خصوصی، [Awesome-Privacy](https://github.com/lissy93/awesome-privacy) را ببینید.
+برای فهرست نرم‌افزارهای سازگار با حریم خصوصی، [Awesome-Privacy](https://awesome-privacy.xyz) را ببینید.
 
-نسخه آینه این مخزن در [codeberg.org/alicia/personal-security-checklist](https://codeberg.org/alicia/personal-security-checklist) در دسترس است.
+نسخه فارسی توسط Hamid K نگه‌داری می‌شود و بر پایه کار اصلی Alicia Sykes است.
 
 ---
 
@@ -42,9 +42,9 @@
 **گذرواژه را تکرار نکنید** | ضروری | اگر کسی از یک گذرواژه در چند سایت استفاده کند و یکی از آن‌ها دچار نشت شود، مجرم می‌تواند به‌سادگی به دیگر حساب‌ها دسترسی پیدا کند. این کار معمولا با درخواست‌های ورود خودکار در مقیاس بزرگ انجام می‌شود و به آن Credential Stuffing می‌گویند. متاسفانه رایج است، اما پیشگیری ساده است — برای هر حساب آنلاین یک گذرواژه متفاوت داشته باشید.
 **استفاده از مدیر گذرواژه امن** | ضروری | برای بیشتر افراد، به خاطر سپردن صدها گذرواژه قوی و یکتا تقریبا غیرممکن است. مدیر گذرواژه برنامه‌ای است که اطلاعات ورود شما را تولید، ذخیره و به‌صورت خودکار پر می‌کند. همه گذرواژه‌های شما با یک گذرواژه اصلی رمزنگاری می‌شوند (که باید به خاطر بسپارید و بسیار قوی باشد). بیشتر مدیران گذرواژه افزونه مرورگر و برنامه موبایل دارند، بنابراین روی هر دستگاهی که هستید گذرواژه‌ها خودکار پر می‌شوند. گزینه‌ای همه‌فن‌حریف [Bitwarden](https://awesome-privacy.xyz/essentials/password-managers/bitwarden) است، یا [مدیران گذرواژه پیشنهادی](https://awesome-privacy.xyz/essentials/password-managers) را ببینید.
 **از اشتراک‌گذاری گذرواژه پرهیز کنید** | ضروری | گاهی ممکن است لازم باشد دسترسی یک حساب را با شخص دیگری به اشتراک بگذارید، اما در حالت کلی از این کار اجتناب کنید چون احتمال نفوذ را افزایش می‌دهد. اگر واقعا نیاز به اشتراک‌گذاری دارید — مثلا در تیمی با حساب مشترک — این کار را از طریق قابلیت‌های داخلی مدیر گذرواژه انجام دهید.
-**فعال‌سازی احراز هویت دومرحله‌ای** | ضروری | در 2FA باید هم چیزی که می‌دانید (گذرواژه) و هم چیزی که دارید (مثل کد روی گوشی) ارائه شود. بنابراین اگر کسی گذرواژه شما را داشته باشد (مثلا با فیشینگ، بدافزار یا نشت داده)، نمی‌تواند وارد حساب شما شود. شروع کار ساده است: یک [برنامه احرازکننده](https://github.com/Lissy93/awesome-privacy#2-factor-authentication) روی گوشی نصب کنید، سپس در تنظیمات امنیتی حساب مراحل فعال‌سازی 2FA را دنبال کنید. دفعه بعد که روی دستگاه جدید وارد شوید، کدی که در برنامه نمایش داده می‌شود را وارد می‌کنید (بدون اینترنت کار می‌کند و معمولا هر ۳۰ ثانیه تغییر می‌کند).
+**فعال‌سازی احراز هویت دومرحله‌ای** | ضروری | در 2FA باید هم چیزی که می‌دانید (گذرواژه) و هم چیزی که دارید (مثل کد روی گوشی) ارائه شود. بنابراین اگر کسی گذرواژه شما را داشته باشد (مثلا با فیشینگ، بدافزار یا نشت داده)، نمی‌تواند وارد حساب شما شود. شروع کار ساده است: یک [برنامه احرازکننده](https://awesome-privacy.xyz#2-factor-authentication) روی گوشی نصب کنید، سپس در تنظیمات امنیتی حساب مراحل فعال‌سازی 2FA را دنبال کنید. دفعه بعد که روی دستگاه جدید وارد شوید، کدی که در برنامه نمایش داده می‌شود را وارد می‌کنید (بدون اینترنت کار می‌کند و معمولا هر ۳۰ ثانیه تغییر می‌کند).
 **کدهای پشتیبان را امن نگه دارید** | ضروری | هنگام فعال‌سازی احراز هویت چندمرحله‌ای، معمولا چند کد پشتیبان دریافت می‌کنید که در صورت از دست رفتن یا خرابی روش 2FA بتوانید از آن‌ها استفاده کنید. این کدها را در جای امن نگه دارید تا گم نشوند یا به دست دیگران نیفتند. آن‌ها را روی کاغذ یا در محلی امن روی دیسک (مثل فضای آفلاین یا فایل/درایو رمزنگاری‌شده) نگه‌داری کنید. این کدها را در مدیر گذرواژه ذخیره نکنید؛ منابع 2FA و گذرواژه‌ها باید جدا باشند.
-**ثبت‌نام برای هشدار نشت داده** | اختیاری | پس از یک نشت بزرگ، داده‌های درز کرده اغلب در اینترنت منتشر می‌شوند. چندین وب‌سایت این داده‌ها را جمع‌آوری می‌کنند و امکان جست‌وجوی ایمیل شما را می‌دهند. سرویس‌های [Firefox Monitor](https://monitor.firefox.com)، [Have I Been Pwned](https://haveibeenpwned.com) و [DeHashed](https://dehashed.com) امکان پایش دارند و اگر ایمیل شما در مجموعه جدیدی دیده شود اطلاع می‌دهند. دانستن این موضوع در اسرع وقت مفید است تا گذرواژه حساب‌های آسیب‌دیده را تغییر دهید. [Have I Been Pwned](https://awesome-privacy.xyz/security-tools/online-tools/have-i-been-pwned) همچنین اعلان سراسری دامنه دارد و می‌تواند در صورت ظاهر شدن ایمیل‌های دامنه شما هشدار بدهد (برای زمانی که از نام‌های مستعار در [فورواردینگ ناشناس](https://github.com/Lissy93/awesome-privacy#anonymous-mail-forwarding) استفاده می‌کنید).
+**ثبت‌نام برای هشدار نشت داده** | اختیاری | پس از یک نشت بزرگ، داده‌های درز کرده اغلب در اینترنت منتشر می‌شوند. چندین وب‌سایت این داده‌ها را جمع‌آوری می‌کنند و امکان جست‌وجوی ایمیل شما را می‌دهند. سرویس‌های [Firefox Monitor](https://monitor.firefox.com)، [Have I Been Pwned](https://haveibeenpwned.com) و [DeHashed](https://dehashed.com) امکان پایش دارند و اگر ایمیل شما در مجموعه جدیدی دیده شود اطلاع می‌دهند. دانستن این موضوع در اسرع وقت مفید است تا گذرواژه حساب‌های آسیب‌دیده را تغییر دهید. [Have I Been Pwned](https://awesome-privacy.xyz/security-tools/online-tools/have-i-been-pwned) همچنین اعلان سراسری دامنه دارد و می‌تواند در صورت ظاهر شدن ایمیل‌های دامنه شما هشدار بدهد (برای زمانی که از نام‌های مستعار در [فورواردینگ ناشناس](https://awesome-privacy.xyz#anonymous-mail-forwarding) استفاده می‌کنید).
 **پوشاندن گذرواژه/پین هنگام ورود** | اختیاری | هنگام تایپ گذرواژه در مکان‌های عمومی، مطمئن شوید در دید مستقیم دوربین مداربسته نیستید و کسی از پشت سر صفحه را نمی‌بیند. هنگام تایپ، دست خود را روی صفحه‌کلید بگیرید و گذرواژه‌های متن‌واضح را روی صفحه نشان ندهید.
 **گذرواژه‌های حیاتی را دوره‌ای به‌روزرسانی کنید** | اختیاری | نشت پایگاه‌داده‌ها رایج است و احتمالا چند گذرواژه شما همین حالا جایی در اینترنت وجود دارد. تغییر دوره‌ای گذرواژه حساب‌های حساس می‌تواند ریسک را کاهش دهد. اما اگر گذرواژه‌هایتان بلند، قوی و یکتا باشند، نیازی نیست خیلی مکرر این کار را انجام دهید — سالی یک‌بار کافی است. الزام به تغییر دوره‌ای گذرواژه در سازمان‌ها [دیگر توصیه نمی‌شود](https://duo.com/decipher/microsoft-will-no-longer-recommend-forcing-periodic-password-changes)، چون باعث انتخاب گذرواژه‌های ضعیف‌تر می‌شود.
 **گذرواژه را در مرورگر ذخیره نکنید** | اختیاری | بیشتر مرورگرها پیشنهاد ذخیره اطلاعات ورود را می‌دهند. این کار را نپذیرید، چون همیشه رمزنگاری نشده‌اند و ممکن است امکان دسترسی به حساب‌هایتان را فراهم کنند. به‌جایش از مدیر گذرواژه برای ذخیره و پرکردن خودکار گذرواژه‌ها استفاده کنید.
@@ -53,12 +53,12 @@
 **به پرسش‌های امنیتی واقعی پاسخ ندهید** | اختیاری | اگر سایتی پرسش امنیتی می‌پرسد (مثل محل تولد، نام خانوادگی مادر یا اولین خودرو)، پاسخ واقعی ندهید. برای هکرها یافتن این اطلاعات با جست‌وجوی آنلاین یا مهندسی اجتماعی آسان است. به‌جایش پاسخ ساختگی بسازید و در مدیر گذرواژه ذخیره کنید. استفاده از واژه‌های واقعی بهتر از کاراکترهای تصادفی است (طبق [این توضیح](https://news.ycombinator.com/item?id=29244870)).
 **از پین ۴ رقمی استفاده نکنید** | اختیاری | برای گوشی یا رایانه از پین کوتاه استفاده نکنید. به‌جایش از گذرواژه متنی یا پین بسیار طولانی‌تر استفاده کنید. پین‌های عددی به‌راحتی شکسته می‌شوند (پین ۴ رقمی فقط ۱۰ هزار ترکیب دارد، در حالی که کد ۴ کاراکتری حروفی-عددی ۷.۴ میلیون ترکیب دارد).
 **از پیامک برای 2FA استفاده نکنید** | اختیاری | هنگام فعال‌سازی احراز هویت چندمرحله‌ای، اگر امکان دارد از کدهای برنامه‌ای یا توکن سخت‌افزاری استفاده کنید. پیامک در برابر تهدیدهایی مثل [تعویض سیم‌کارت](https://www.maketecheasier.com/sim-card-hijacking) و [رهگیری](https://secure-voice.com/ss7_attacks) آسیب‌پذیر است. همچنین معلوم نیست شماره شما چقدر امن نگه‌داری می‌شود یا برای چه کارهای دیگری استفاده می‌شود. از نظر عملی نیز پیامک فقط با آنتن‌دهی کار می‌کند و ممکن است کند باشد. اگر برای بازیابی حساب مجبور به استفاده از شماره پیامکی هستید، بهتر است یک شماره اعتباری جداگانه فقط برای بازیابی داشته باشید.
-**از مدیر گذرواژه برای تولید OTP استفاده نکنید** | پیشرفته | بسیاری از مدیران گذرواژه قادر به تولید کدهای 2FA هستند. بهتر است از مدیر گذرواژه اصلی خود به‌عنوان احرازکننده 2FA استفاده نکنید، چون در صورت نفوذ، یک نقطه شکست واحد ایجاد می‌شود. به‌جایش از یک [برنامه احرازکننده](https://github.com/Lissy93/awesome-privacy#2-factor-authentication) مجزا روی گوشی یا لپ‌تاپ استفاده کنید.
+**از مدیر گذرواژه برای تولید OTP استفاده نکنید** | پیشرفته | بسیاری از مدیران گذرواژه قادر به تولید کدهای 2FA هستند. بهتر است از مدیر گذرواژه اصلی خود به‌عنوان احرازکننده 2FA استفاده نکنید، چون در صورت نفوذ، یک نقطه شکست واحد ایجاد می‌شود. به‌جایش از یک [برنامه احرازکننده](https://awesome-privacy.xyz#2-factor-authentication) مجزا روی گوشی یا لپ‌تاپ استفاده کنید.
 **از باز کردن با چهره پرهیز کنید** | پیشرفته | بیشتر گوشی‌ها و لپ‌تاپ‌ها قابلیت احراز هویت چهره دارند و با دوربین تصویر چهره را با هش ذخیره‌شده مقایسه می‌کنند. این روش راحت است، اما راه‌های زیادی برای [فریب دادن](https://www.forbes.com/sites/jvchamary/2017/09/18/security-apple-face-id-iphone-x/) آن و دسترسی به دستگاه با عکس دیجیتال یا بازسازی از تصاویر دوربین مداربسته وجود دارد. برخلاف گذرواژه، احتمالا عکس‌ها و ویدئوهایی از چهره شما در اینترنت یا دوربین‌ها وجود دارد.
 **مراقب کی‌لاگرها باشید** | پیشرفته | [کی‌لاگر سخت‌افزاری](https://en.wikipedia.org/wiki/Hardware_keylogger) دستگاهی فیزیکی است که بین کیبورد و پورت USB قرار می‌گیرد و همه کلیدها را ثبت می‌کند و گاهی به سرور راه دور می‌فرستد. این کار به هکر دسترسی به هر چیزی که تایپ می‌کنید (از جمله گذرواژه‌ها) می‌دهد. بهترین راه محافظت، بررسی اتصال USB پس از رها کردن سیستم است. ممکن است کی‌لاگر داخل بدنه کیبورد هم نصب شود، پس نشانه‌های دست‌کاری را بررسی کنید و اگر لازم است کیبورد خودتان را همراه ببرید. داده‌هایی که با صفحه‌کلید مجازی تایپ می‌شوند، از کلیپ‌بورد چسبانده می‌شوند یا توسط مدیر گذرواژه خودکار پر می‌شوند، توسط کی‌لاگر سخت‌افزاری قابل رهگیری نیستند.
 **استفاده از توکن سخت‌افزاری را در نظر بگیرید** | پیشرفته | کلید امنیتی U2F/FIDO2 یک دستگاه USB (یا NFC) است که هنگام ورود به سرویس آنلاین وارد می‌کنید تا هویت شما را به‌جای وارد کردن OTP تایید کند. [SoloKey](https://solokeys.com) و [NitroKey](https://www.nitrokey.com) نمونه‌هایی از این کلیدها هستند. این روش مزایای امنیتی زیادی دارد. چون مرورگر مستقیم با دستگاه ارتباط می‌گیرد، نمی‌توان آن را درباره میزبان درخواست‌کننده فریب داد، زیرا گواهی TLS بررسی می‌شود. [این مطلب](https://security.stackexchange.com/a/71704) توضیح خوبی درباره امنیت توکن‌های FIDO U2F است. البته کلید فیزیکی را باید در جای امن نگه‌داری کنید یا همراه خود داشته باشید. برخی حساب‌ها اجازه می‌دهند چند روش 2FA هم‌زمان فعال باشد.
 **مدیر گذرواژه آفلاین را در نظر بگیرید** | پیشرفته | برای امنیت بیشتر، یک مدیر گذرواژه آفلاین رمزنگاری‌شده کنترل کامل داده‌ها را به شما می‌دهد. [KeePass](https://awesome-privacy.xyz/essentials/password-managers/keepass) گزینه‌ای محبوب است و افزونه‌ها و فورک‌های متعددی با سازگاری و امکانات بیشتر دارد. کلاینت‌های محبوب شامل: [KeePassXC](https://keepassxc.org) (دسکتاپ)، [KeePassDX](https://www.keepassdx.com) (اندروید) و [StrongBox](https://apps.apple.com/us/app/strongbox-password-safe/id897283731) (iOS) هستند. ایراد آن این است که ممکن است کمی کم‌راحت‌تر باشد و پشتیبان‌گیری و نگه‌داری امن به عهده شماست.
-**نام کاربری یکتا را در نظر بگیرید** | پیشرفته | داشتن گذرواژه‌های متفاوت برای هر حساب گام خوبی است، اما اگر همچنین نام کاربری، ایمیل یا شماره تلفن یکتا برای ورود استفاده کنید، دسترسی غیرمجاز بسیار سخت‌تر می‌شود. ساده‌ترین روش برای داشتن چند ایمیل، استفاده از نام‌های مستعار خودکار برای فورواردینگ ناشناس است؛ به‌طوری که [هرچیزی]@yourdomain.com به صندوق شما می‌رسد و می‌توانید برای هر حساب ایمیل متفاوت داشته باشید (نگاه کنید به [ارائه‌دهندگان نام مستعار ایمیل](https://github.com/Lissy93/awesome-privacy#mail-forwarding)). نام‌های کاربری ساده‌ترند چون می‌توانید با مدیر گذرواژه تولید، ذخیره و خودکار پرشان کنید. شماره‌های مجازی نیز از طریق ارائه‌دهنده VOIP قابل تهیه‌اند.
+**نام کاربری یکتا را در نظر بگیرید** | پیشرفته | داشتن گذرواژه‌های متفاوت برای هر حساب گام خوبی است، اما اگر همچنین نام کاربری، ایمیل یا شماره تلفن یکتا برای ورود استفاده کنید، دسترسی غیرمجاز بسیار سخت‌تر می‌شود. ساده‌ترین روش برای داشتن چند ایمیل، استفاده از نام‌های مستعار خودکار برای فورواردینگ ناشناس است؛ به‌طوری که [هرچیزی]@yourdomain.com به صندوق شما می‌رسد و می‌توانید برای هر حساب ایمیل متفاوت داشته باشید (نگاه کنید به [ارائه‌دهندگان نام مستعار ایمیل](https://awesome-privacy.xyz#mail-forwarding)). نام‌های کاربری ساده‌ترند چون می‌توانید با مدیر گذرواژه تولید، ذخیره و خودکار پرشان کنید. شماره‌های مجازی نیز از طریق ارائه‌دهنده VOIP قابل تهیه‌اند.
 
 ### نرم‌افزارهای پیشنهادی
 - [مدیران گذرواژه](https://awesome-privacy.xyz/essentials/password-managers)
@@ -78,7 +78,7 @@
 **مسدود کردن تبلیغات** | ضروری | استفاده از مسدودکننده تبلیغات می‌تواند با بستن ردیاب‌های تبلیغاتی حریم خصوصی شما را بهبود دهد. افزونه [uBlock Origin](https://awesome-privacy.xyz/networking/ad-blockers/ublock-origin) یک افزونه بسیار کارآمد و متن‌باز است که توسط Raymond Hill توسعه داده شده. وقتی تبلیغات شخص ثالث در صفحه نمایش داده می‌شوند، می‌توانند شما را ردیابی کرده و اطلاعات شخصی و عادات‌تان را جمع کنند؛ سپس این داده‌ها فروخته می‌شوند یا برای نمایش تبلیغات هدفمندتر استفاده می‌شوند. برخی تبلیغات نیز کاملا مخرب یا جعلی‌اند. مسدود کردن تبلیغات باعث بارگذاری سریع‌تر صفحات، مصرف کمتر داده و تجربه‌ای خلوت‌تر می‌شود.
 **اطمینان از معتبر بودن وب‌سایت** | پایه | شاید بدیهی باشد، اما هنگام ورود به هر حساب آنلاین، آدرس URL را دوباره بررسی کنید. ذخیره سایت‌های پرکاربرد در بوکمارک راه خوبی برای دسترسی سریع به URL درست است. هنگام بازدید از سایت‌های جدید، نشانه‌های ناامن بودن را بررسی کنید: هشدارهای مرورگر، ریدایرکت‌ها، اسپم داخل سایت و پاپ‌آپ‌ها. اگر مطمئن نبودید، می‌توانید با ابزارهایی مثل [Virus Total](https://awesome-privacy.xyz/security-tools/online-tools/virus-total)، [IsLegitSite](https://www.islegitsite.com) یا [Google Safe Browsing Status](https://transparencyreport.google.com/safe-browsing/search) بررسی کنید.
 **مراقب بدافزارهای مرورگر باشید** | پایه | سیستم یا مرورگر شما ممکن است توسط جاسوس‌افزار، ماینر، رباینده مرورگر، ریدایرکت‌های مخرب، ادور و... آلوده شود. معمولا با نادیده گرفتن پاپ‌آپ‌ها، دقت در کلیک‌ها و توقف در صورت هشدار مرورگر می‌توانید محافظت بمانید. نشانه‌های رایج شامل تغییر موتور جست‌وجو یا صفحه اصلی، نوارابزارهای ناشناس، افزونه‌ها یا آیکون‌های ناآشنا، افزایش شدید تبلیغات، خطاها و کند شدن غیرعادی صفحات است. این مقالات Heimdal نشانه‌ها، روش‌های آلودگی و حذف بدافزار مرورگر را توضیح می‌دهند: [نشانه‌ها](https://heimdalsecurity.com/blog/warning-signs-operating-system-infected-malware)، [چطور آلوده می‌شود](https://heimdalsecurity.com/blog/practical-online-protection-where-malware-hides)، [چگونه حذف کنیم](https://heimdalsecurity.com/blog/malware-removal).
-**استفاده از مرورگر سازگار با حریم خصوصی** | ضروری | [Firefox](https://awesome-privacy.xyz/essentials/browsers/firefox) (با چند تنظیم) و [Brave](https://awesome-privacy.xyz/essentials/browsers/brave-browser) مرورگرهای امن و حریم‌خصوصی‌محور هستند. هر دو سریع، متن‌باز، کاربرپسند و روی همه سیستم‌عامل‌های اصلی در دسترس‌اند. مرورگر شما به تمام فعالیت‌های آنلاین دسترسی دارد، پس اگر ممکن است از Google Chrome، Edge و Safari پرهیز کنید چون (بدون تنظیم درست) داده‌های استفاده را جمع‌آوری می‌کنند و امکان ردیابی تهاجمی می‌دهند. برای امنیت بهتر Firefox به چند تغییر نیاز دارد؛ مثل [arkenfox](https://github.com/arkenfox/user.js/wiki) یا تنظیمات user.js [12byte](https://12bytes.org/firefox-configuration-guide-for-privacy-freaks-and-performance-buffs/). بیشتر بخوانید: [مرورگرهای حریم‌خصوصی](https://github.com/Lissy93/awesome-privacy#browsers).
+**استفاده از مرورگر سازگار با حریم خصوصی** | ضروری | [Firefox](https://awesome-privacy.xyz/essentials/browsers/firefox) (با چند تنظیم) و [Brave](https://awesome-privacy.xyz/essentials/browsers/brave-browser) مرورگرهای امن و حریم‌خصوصی‌محور هستند. هر دو سریع، متن‌باز، کاربرپسند و روی همه سیستم‌عامل‌های اصلی در دسترس‌اند. مرورگر شما به تمام فعالیت‌های آنلاین دسترسی دارد، پس اگر ممکن است از Google Chrome، Edge و Safari پرهیز کنید چون (بدون تنظیم درست) داده‌های استفاده را جمع‌آوری می‌کنند و امکان ردیابی تهاجمی می‌دهند. برای امنیت بهتر Firefox به چند تغییر نیاز دارد؛ مثل [arkenfox](https://github.com/arkenfox/user.js/wiki) یا تنظیمات user.js [12byte](https://12bytes.org/firefox-configuration-guide-for-privacy-freaks-and-performance-buffs/). بیشتر بخوانید: [مرورگرهای حریم‌خصوصی](https://awesome-privacy.xyz#browsers).
 **استفاده از موتور جست‌وجوی خصوصی** | ضروری | استفاده از موتور جست‌وجوی غیرردیاب و حریم‌خصوصی‌محور ریسک ثبت یا سوءاستفاده از واژه‌های جست‌وجوی شما را کاهش می‌دهد. [DuckDuckGo](https://awesome-privacy.xyz/essentials/search-engines/duckduckgo) یا [Qwant](https://awesome-privacy.xyz/essentials/search-engines/qwant) را در نظر بگیرید. گوگل سیاست‌های ردیابی [بسیار تهاجمی](https://hackernoon.com/data-privacy-concerns-with-google-b946f2b7afea) دارد و سابقه نمایش نتایج [سوگیرانه](https://www.businessinsider.com/evidence-that-google-search-results-are-biased-2014-10). بنابراین Google به همراه Bing، Baidu، Yahoo و Yandex برای کسانی که به حریم خصوصی اهمیت می‌دهند مناسب نیستند. پیشنهاد می‌شود [جست‌وجوی پیش‌فرض مرورگر](https://duckduckgo.com/install) را به یک موتور حریم‌خصوصی تغییر دهید.
 **حذف افزونه‌های غیرضروری مرورگر** | ضروری | افزونه‌ها می‌توانند هر چیزی که در مرورگر انجام می‌دهید را ببینند، ثبت کنند یا تغییر دهند و بعضی افزونه‌های ظاهرا بی‌خطر نیت‌های مخرب دارند. وب‌سایت‌ها می‌توانند افزونه‌های نصب‌شده را ببینند و برای تقویت اثرانگشت شما استفاده کنند. فروشگاه‌های افزونه Firefox و Chrome اجازه می‌دهند قبل از نصب، دسترسی‌های موردنیاز افزونه را ببینید. نظرات را بررسی کنید. فقط افزونه‌های لازم را نگه دارید و موارد بدون استفاده را حذف کنید.
 **مرورگر را به‌روز نگه دارید** | ضروری | آسیب‌پذیری‌های مرورگر مرتب [کشف](https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=browser) و وصله می‌شوند؛ پس به‌روز نگه داشتن برای جلوگیری از سوءاستفاده صفرروزه مهم است. می‌توانید [نسخه مرورگر خود را اینجا ببینید](https://www.whatismybrowser.com/) یا [این راهنما](https://www.whatismybrowser.com/guides/how-to-update-your-browser/) را برای به‌روزرسانی دنبال کنید. برخی مرورگرها خودکار به آخرین نسخه پایدار به‌روز می‌شوند.
@@ -116,10 +116,10 @@
 **غیرفعال کردن JavaScript** | پیشرفته | بسیاری از وب‌اپ‌های مدرن مبتنی بر JavaScript هستند، پس غیرفعال کردن آن تجربه مرور را کاهش می‌دهد. اما اگر می‌خواهید نهایت سخت‌گیری را داشته باشید، سطح حمله را کم می‌کند.
 
 ### نرم‌افزارهای پیشنهادی
-- [مرورگرهای حریم‌خصوصی](https://github.com/Lissy93/awesome-privacy#browsers)
-- [موتورهای جست‌وجو](https://github.com/Lissy93/awesome-privacy#search-engines)
-- [افزونه‌های مرورگر](https://github.com/Lissy93/awesome-privacy#browser-extensions)
-- [همگام‌سازی مرورگر و بوکمارک](https://github.com/Lissy93/awesome-privacy#browser-sync)
+- [مرورگرهای حریم‌خصوصی](https://awesome-privacy.xyz#browsers)
+- [موتورهای جست‌وجو](https://awesome-privacy.xyz#search-engines)
+- [افزونه‌های مرورگر](https://awesome-privacy.xyz#browser-extensions)
+- [همگام‌سازی مرورگر و بوکمارک](https://awesome-privacy.xyz#browser-sync)
 
 
 ## ایمیل
@@ -155,10 +155,10 @@
 **نگه‌داری فهرست سیاه IP** | پیشرفته | برای سرورهای ایمیل خودمیزبان، با نگه‌داشتن فهرست سیاه محلی IP و فهرست مسدودسازی بلادرنگ URIهای اسپم می‌توانید فیلتر اسپم را بهبود داده و لینک‌های مخرب را حذف کنید.
 
 ### نرم‌افزارهای پیشنهادی
-- [ارائه‌دهندگان ایمیل امن](https://github.com/Lissy93/awesome-privacy#encrypted-email)
-- [فورواردینگ ایمیل](https://github.com/Lissy93/awesome-privacy#anonymous-mail-forwarding)
-- [سرورهای ایمیل از پیش پیکربندی‌شده](https://github.com/Lissy93/awesome-privacy#pre-configured-mail-servers)
-- [کلاینت‌های ایمیل](https://github.com/Lissy93/awesome-privacy#email-clients)
+- [ارائه‌دهندگان ایمیل امن](https://awesome-privacy.xyz#encrypted-email)
+- [فورواردینگ ایمیل](https://awesome-privacy.xyz#anonymous-mail-forwarding)
+- [سرورهای ایمیل از پیش پیکربندی‌شده](https://awesome-privacy.xyz#pre-configured-mail-servers)
+- [کلاینت‌های ایمیل](https://awesome-privacy.xyz#email-clients)
 
 
 ## پیام‌رسانی
@@ -188,8 +188,8 @@
 **پلتفرم غیرمتمرکز را در نظر بگیرید** | پیشرفته | اگر همه داده‌ها از یک ارائه‌دهنده مرکزی عبور کند، باید به او با داده و فراداده اعتماد کنید. بدون درِ پشتی نمی‌توانید اصالت سیستم را مستقل بررسی کنید.
 
 ### نرم‌افزارهای پیشنهادی
-- [پیام‌رسان‌های امن](https://github.com/Lissy93/awesome-privacy#encrypted-messaging)
-- [پلتفرم‌های پیام‌رسانی همتا به همتا](https://github.com/Lissy93/awesome-privacy#p2p-messaging)
+- [پیام‌رسان‌های امن](https://awesome-privacy.xyz#encrypted-messaging)
+- [پلتفرم‌های پیام‌رسانی همتا به همتا](https://awesome-privacy.xyz#p2p-messaging)
 
 
 ## شبکه‌های اجتماعی
@@ -217,10 +217,10 @@
 **اصلا حساب شبکه اجتماعی نداشته باشید** | پیشرفته | شبکه‌های اجتماعی ذاتا خصوصی نیستند. برای بیشترین امنیت و حریم خصوصی، از شبکه‌های اجتماعی رایج استفاده نکنید.
 
 ### نرم‌افزارهای پیشنهادی
-- [شبکه‌های اجتماعی جایگزین](https://github.com/Lissy93/awesome-privacy#social-networks)
-- [پلتفرم‌های ویدئویی جایگزین](https://github.com/Lissy93/awesome-privacy#video-platforms)
-- [پلتفرم‌های وبلاگ‌نویسی جایگزین](https://github.com/Lissy93/awesome-privacy#blogging-platforms)
-- [خبرخوان‌ها و گردآوری خبر](https://github.com/Lissy93/awesome-privacy#news-readers-and-aggregation)
+- [شبکه‌های اجتماعی جایگزین](https://awesome-privacy.xyz#social-networks)
+- [پلتفرم‌های ویدئویی جایگزین](https://awesome-privacy.xyz#video-platforms)
+- [پلتفرم‌های وبلاگ‌نویسی جایگزین](https://awesome-privacy.xyz#blogging-platforms)
+- [خبرخوان‌ها و گردآوری خبر](https://awesome-privacy.xyz#news-readers-and-aggregation)
 
 
 ## شبکه‌ها
@@ -257,14 +257,14 @@
 **وای‌فای را روی همه دستگاه‌ها خاموش کنید** | پیشرفته | اتصال به حتی وای‌فای امن هم سطح حمله را افزایش می‌دهد. وای‌فای خانگی را خاموش کنید و دستگاه‌ها را با اترنت وصل کنید.
 
 ### نرم‌افزارهای پیشنهادی
-- [شبکه‌های خصوصی مجازی](https://github.com/Lissy93/awesome-privacy#virtual-private-networks)
-- [شبکه‌های مخلوط](https://github.com/Lissy93/awesome-privacy#mix-networks)
-- [فریم‌ور روتر](https://github.com/Lissy93/awesome-privacy#router-firmware)
-- [پروکسی‌های متن‌باز](https://github.com/Lissy93/awesome-privacy#proxies)
-- [ارائه‌دهندگان DNS](https://github.com/Lissy93/awesome-privacy#dns)
-- [فایروال‌ها](https://github.com/Lissy93/awesome-privacy#firewalls)
-- [ابزارهای تحلیل شبکه](https://github.com/Lissy93/awesome-privacy#network-analysis)
-- [ابزارهای امنیت شبکه خودمیزبان](https://github.com/Lissy93/awesome-privacy#self-hosted-network-security)
+- [شبکه‌های خصوصی مجازی](https://awesome-privacy.xyz#virtual-private-networks)
+- [شبکه‌های مخلوط](https://awesome-privacy.xyz#mix-networks)
+- [فریم‌ور روتر](https://awesome-privacy.xyz#router-firmware)
+- [پروکسی‌های متن‌باز](https://awesome-privacy.xyz#proxies)
+- [ارائه‌دهندگان DNS](https://awesome-privacy.xyz#dns)
+- [فایروال‌ها](https://awesome-privacy.xyz#firewalls)
+- [ابزارهای تحلیل شبکه](https://awesome-privacy.xyz#network-analysis)
+- [ابزارهای امنیت شبکه خودمیزبان](https://awesome-privacy.xyz#self-hosted-network-security)
 
 
 ## دستگاه‌های موبایل
@@ -303,9 +303,9 @@
 **استفاده از رام سفارشی را در اندروید در نظر بگیرید** | پیشرفته | اگر نگران جمع‌آوری بیش از حد داده توسط سازنده هستید، از رام سفارشی حریم‌خصوصی‌محور استفاده کنید.
 
 ### نرم‌افزارهای پیشنهادی
-- [اپ‌های موبایل برای امنیت و حریم خصوصی](https://github.com/Lissy93/awesome-privacy#mobile-apps)
-- [پیام‌رسانی رمزنگاری‌شده](https://github.com/Lissy93/awesome-privacy#encrypted-messaging)
-- [سیستم‌عامل‌های موبایل](https://github.com/Lissy93/awesome-privacy#mobile-operating-systems)
+- [اپ‌های موبایل برای امنیت و حریم خصوصی](https://awesome-privacy.xyz#mobile-apps)
+- [پیام‌رسانی رمزنگاری‌شده](https://awesome-privacy.xyz#encrypted-messaging)
+- [سیستم‌عامل‌های موبایل](https://awesome-privacy.xyz#mobile-operating-systems)
 
 
 ## رایانه‌های شخصی
@@ -352,13 +352,13 @@
 **از Canary Token استفاده کنید** | پیشرفته | برای تشخیص سریع‌تر دسترسی غیرمجاز به فایل‌ها یا ایمیل‌ها، Canary Tokenها را مستقر کنید و اطلاعاتی درباره مهاجم جمع‌آوری کنید.
 
 ### نرم‌افزارهای پیشنهادی
-- [سیستم‌عامل‌های امن](https://github.com/Lissy93/awesome-privacy#desktop-operating-systems)
-- [دفاع‌های لینوکس](https://github.com/Lissy93/awesome-privacy#linux-defences)
-- [دفاع‌های ویندوز](https://github.com/Lissy93/awesome-privacy#windows-defences)
-- [دفاع‌های macOS](https://github.com/Lissy93/awesome-privacy#mac-os-defences)
-- [ضدبدافزار](https://github.com/Lissy93/awesome-privacy#anti-malware)
-- [فایروال‌ها](https://github.com/Lissy93/awesome-privacy#firewalls-1)
-- [رمزنگاری فایل](https://github.com/Lissy93/awesome-privacy#file-encryption)
+- [سیستم‌عامل‌های امن](https://awesome-privacy.xyz#desktop-operating-systems)
+- [دفاع‌های لینوکس](https://awesome-privacy.xyz#linux-defences)
+- [دفاع‌های ویندوز](https://awesome-privacy.xyz#windows-defences)
+- [دفاع‌های macOS](https://awesome-privacy.xyz#mac-os-defences)
+- [ضدبدافزار](https://awesome-privacy.xyz#anti-malware)
+- [فایروال‌ها](https://awesome-privacy.xyz#firewalls-1)
+- [رمزنگاری فایل](https://awesome-privacy.xyz#file-encryption)
 
 
 ## خانه هوشمند
@@ -384,8 +384,8 @@
 **ریسک‌ها را ارزیابی کنید** | پیشرفته | پیامدهای حریم خصوصی برای همه اعضای خانه را در نظر بگیرید و تنظیمات را مطابق نیاز تنظیم کنید؛ مثل خاموش کردن دستگاه‌ها در زمان‌های خاص.
 
 ### نرم‌افزارهای پیشنهادی
-- [خودکارسازی خانه](https://github.com/Lissy93/awesome-privacy#home-automation)
-- [دستیارهای صوتی هوش مصنوعی](https://github.com/Lissy93/awesome-privacy#ai-voice-assistants)
+- [خودکارسازی خانه](https://awesome-privacy.xyz#home-automation)
+- [دستیارهای صوتی هوش مصنوعی](https://awesome-privacy.xyz#ai-voice-assistants)
 
 
 ## امور مالی شخصی
@@ -407,12 +407,12 @@
 **از آدرس تحویل جایگزین استفاده کنید** | پیشرفته | تحویل به آدرس‌های غیرشخصی مثل صندوق پستی، آدرس فوروارد یا محل‌های دریافت محلی را انتخاب کنید تا خریدها مستقیم به شما متصل نشود.
 
 ### نرم‌افزارهای پیشنهادی
-- [کارت‌های اعتباری مجازی](https://github.com/Lissy93/awesome-privacy#virtual-credit-cards)
-- [رمزارزها](https://github.com/Lissy93/awesome-privacy#cryptocurrencies)
-- [کیف پول‌های رمزارز](https://github.com/Lissy93/awesome-privacy#crypto-wallets)
-- [صرافی‌های رمزارز](https://github.com/Lissy93/awesome-privacy#crypto-exchanges)
-- [روش‌های پرداخت دیگر](https://github.com/Lissy93/awesome-privacy#other-payment-methods)
-- [ابزارهای بودجه‌بندی](https://github.com/Lissy93/awesome-privacy#budgeting-tools)
+- [کارت‌های اعتباری مجازی](https://awesome-privacy.xyz#virtual-credit-cards)
+- [رمزارزها](https://awesome-privacy.xyz#cryptocurrencies)
+- [کیف پول‌های رمزارز](https://awesome-privacy.xyz#crypto-wallets)
+- [صرافی‌های رمزارز](https://awesome-privacy.xyz#crypto-exchanges)
+- [روش‌های پرداخت دیگر](https://awesome-privacy.xyz#other-payment-methods)
+- [ابزارهای بودجه‌بندی](https://awesome-privacy.xyz#budgeting-tools)
 
 
 ## جنبه انسانی
@@ -482,14 +482,14 @@ CCTV یکی از راه‌های اصلی ردیابی حرکت شما توسط 
 ----
 
 #### There's an interactive version!
-- [Digital Defense](https://digital-defense.io) - View details, check items of, and track your progress
+- [Digital Defense](https://hamid-k.github.io/personal-security-checklist-FA/) - View details, check items of, and track your progress
 
 #### Other Awesome Security Lists
 - @sbilly/[awesome-security](https://github.com/sbilly/awesome-security)
 - @0x4D31/[awesome-threat-detection](https://github.com/0x4D31/awesome-threat-detection)
 - @hslatman/[awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence)
 - @PaulSec/[awesome-sec-talks](https://github.com/PaulSec/awesome-sec-talks)
-- @Lissy93/[awesome-privacy](https://github.com/lissy93/awesime-privacy)
+- Awesome Privacy (https://awesome-privacy.xyz)
 - @Zbetcheckin/[security_list](https://github.com/zbetcheckin/Security_list)
 - Michael Horowitz / [defensivecomputingchecklist.com](https://defensivecomputingchecklist.com/)
 
@@ -499,39 +499,20 @@ CCTV یکی از راه‌های اصلی ردیابی حرکت شما توسط 
 
 ## Notes
 
-*Thanks for visiting, hope you found something useful here :) Contributions are welcome, and much appreciated - to propose an edit [raise an issue](https://github.com/Lissy93/personal-security-checklist/issues/new/choose), or [open a PR](https://github.com/Lissy93/personal-security-checklist/pull/new/master). See: [`CONTRIBUTING.md`](/.github/CONTRIBUTING.md).*
+*Thanks for visiting, hope you found something useful here :) Contributions are welcome, and much appreciated - to propose an edit [raise an issue](https://github.com/hamid-k/personal-security-checklist-FA/issues/new/choose), or [open a PR](https://github.com/hamid-k/personal-security-checklist-FA/pull/new/master). See: [`CONTRIBUTING.md`](/.github/CONTRIBUTING.md).*
 
 *Disclaimer: This is not an exhaustive list, and aims only to be taken as guide.*
 
-*Licensed under [Creative Commons, CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), © [Alicia Sykes](https://aliciasykes.com) 2020*
+*Licensed under [Creative Commons, CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), © Alicia Sykes 2020*
 
 [![Attribution 4.0 International](https://licensebuttons.net/l/by/3.0/88x31.png)](/LICENSE.md)
 
 ---
 
-Help support the continued development of this project 💖
-
-[![Sponsor Lissy93 on GitHub](https://img.shields.io/badge/Sponsor_on_GitHub-Lissy93-%23ff4dda?style=for-the-badge&logo=githubsponsors&logoColor=ff4dda)](https://github.com/sponsors/Lissy93)
-
-----
-
 Found this helpful? Consider sharing it with others, to help them also improve their digital security 😇
 
-[![Share on Twitter](https://img.shields.io/badge/Share-Twitter-17a2f3?style=for-the-badge&logo=Twitter)](http://twitter.com/share?text=Check%20out%20the%20Personal%20Cyber%20Security%20Checklist-%20an%20ultimate%20list%20of%20tips%20for%20protecting%20your%20digital%20security%20and%20privacy%20in%202020%2C%20with%20%40Lissy_Sykes%20%F0%9F%94%90%20%20%F0%9F%9A%80&url=https://github.com/Lissy93/personal-security-checklist)
+[![Share on Twitter](https://img.shields.io/badge/Share-Twitter-17a2f3?style=for-the-badge&logo=Twitter)](http://twitter.com/share?text=Check%20out%20the%20Personal%20Cyber%20Security%20Checklist-%20an%20ultimate%20list%20of%20tips%20for%20protecting%20your%20digital%20security%20and%20privacy%20in%202020%2C%20with%20%40hamid_k%20%F0%9F%94%90%20%20%F0%9F%9A%80&url=https://github.com/hamid-k/personal-security-checklist-FA)
 [![Share on LinkedIn](https://img.shields.io/badge/Share-LinkedIn-0077b5?style=for-the-badge&logo=LinkedIn)](
-http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/Lissy93/personal-security-checklist&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=https://github.com/Lissy93)
-[![Share on Facebook](https://img.shields.io/badge/Share-Facebook-4267b2?style=for-the-badge&logo=Facebook)](https://www.linkedin.com/shareArticle?mini=true&url=https%3A//github.com/Lissy93/personal-security-checklist&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=)
-[![Share on Mastodon](https://img.shields.io/badge/Share-Mastodon-56a7e1?style=for-the-badge&logo=Mastodon)](https://mastodon.social/web/statuses/new?text=Check%20out%20the%20Ultimate%20Personal%20Cyber%20Security%20Checklist%20by%20%40Lissy93%20on%20%23GitHub%20%20%F0%9F%94%90%20%E2%9C%A8)
-
----
-
-Get in touch 📬
-
-[![Alicia Sykes on Twitter](https://img.shields.io/twitter/follow/Lissy_Sykes?style=social&logo=twitter)](https://twitter.com/Lissy_Sykes)
-[![Alicia Sykes on GitHub](https://img.shields.io/github/followers/lissy93?label=Lissy93&style=social)](https://github.com/Lissy93)
-[![Alicia Sykes on Mastodon](https://img.shields.io/mastodon/follow/1032965?domain=https%3A%2F%2Fmastodon.social)](https://mastodon.social/web/accounts/1032965)
-[![Alicia Sykes on Keybase](https://img.shields.io/badge/aliciasykes--lightgrey?style=social&logo=Keybase)](https://keybase.io/aliciasykes)
-[![Alicia Sykes's PGP](https://img.shields.io/badge/PGP--lightgrey?style=social&logo=Let%E2%80%99s%20Encrypt)](https://keybase.io/aliciasykes/pgp_keys.asc)
-[![Alicia Sykes's Website](https://img.shields.io/badge/aliciasykes.com--lightgrey?style=social&logo=Tencent%20QQ)](https://aliciasykes.com)
-
----
+http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/hamid-k/personal-security-checklist-FA&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=https://github.com/hamid-k)
+[![Share on Facebook](https://img.shields.io/badge/Share-Facebook-4267b2?style=for-the-badge&logo=Facebook)](https://www.linkedin.com/shareArticle?mini=true&url=https%3A//github.com/hamid-k/personal-security-checklist-FA&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=)
+[![Share on Mastodon](https://img.shields.io/badge/Share-Mastodon-56a7e1?style=for-the-badge&logo=Mastodon)](https://mastodon.social/web/statuses/new?text=Check%20out%20the%20Ultimate%20Personal%20Cyber%20Security%20Checklist%20by%20%40hamid-k%20on%20%23GitHub%20%20%F0%9F%94%90%20%E2%9C%A8)

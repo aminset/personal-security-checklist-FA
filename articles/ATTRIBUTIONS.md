@@ -144,8 +144,7 @@ Thanks goes to these wonderful people
 <table>
 <tr>
     <td align="center">
-        <a href="https://github.com/Lissy93">
-            <img src="https://avatars.githubusercontent.com/u/1862727?v=4" width="80;" alt="Lissy93"/>
+        <a href="#">
             <br />
             <sub><b>Alicia Sykes</b></sub>
         </a>
@@ -714,9 +713,9 @@ Thanks goes to these wonderful people
 
 ## Stargazers 🌟
 
-[![Recent Star Gazers](https://reporoster.com/stars/dark/Lissy93/personal-security-checklist)](https://github.com/Lissy93/personal-security-checklist/stargazers)
+[![Recent Star Gazers](https://reporoster.com/stars/dark/hamid-k/personal-security-checklist-FA)](https://github.com/hamid-k/personal-security-checklist-FA/stargazers)
 
-[![Recent Forkers](https://reporoster.com/forks/dark/lissy93/personal-security-checklist)](https://github.com/lissy93/personal-security-checklist/network/members)
+[![Recent Forkers](https://reporoster.com/forks/dark/hamid-k/personal-security-checklist-FA)](https://github.com/hamid-k/personal-security-checklist-FA/network/members)
 
 ## Special Thanks 🤗
 
@@ -730,17 +729,16 @@ Want to get involved? You can support the continued development of this project 
 
 #### Submit an Improvement
 
-[![Submit a PR](https://img.shields.io/badge/Submit_a_PR-GitHub-%23060606?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/Lissy93/dashy/compare)
+[![Submit a PR](https://img.shields.io/badge/Submit_a_PR-GitHub-%23060606?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/hamid-k/personal-security-checklist-FA/compare)
 
 #### Sponsor the Project
 
-[![Sponsor Lissy93 on GitHub](https://img.shields.io/badge/Sponsor_on_GitHub-Lissy93-%23ff4dda?style=for-the-badge&logo=githubsponsors&logoColor=ff4dda)](https://github.com/sponsors/Lissy93)
 
 #### Share with your Network
 
-[![Share on Twitter](https://img.shields.io/badge/Share-Twitter-17a2f3?style=for-the-badge&logo=Twitter)](http://twitter.com/share?text=Check%20out%20the%20Personal%20Cyber%20Security%20Checklist-%20an%20ultimate%20list%20of%20tips%20for%20protecting%20your%20digital%20security%20and%20privacy%20in%202020%2C%20with%20%40Lissy_Sykes%20%F0%9F%94%90%20%20%F0%9F%9A%80&url=https://github.com/Lissy93/personal-security-checklist)
-[![Share on LinkedIn](https://img.shields.io/badge/Share-LinkedIn-0077b5?style=for-the-badge&logo=LinkedIn)](http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/Lissy93/personal-security-checklist&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=https://github.com/Lissy93)
-[![Share on Mastodon](https://img.shields.io/badge/Share-Mastodon-56a7e1?style=for-the-badge&logo=Mastodon)](https://mastodon.social/web/statuses/new?text=Check%20out%20the%20Ultimate%20Personal%20Cyber%20Security%20Checklist%20by%20%40Lissy93%20on%20%23GitHub%20%20%F0%9F%94%90%20%E2%9C%A8)
+[![Share on Twitter](https://img.shields.io/badge/Share-Twitter-17a2f3?style=for-the-badge&logo=Twitter)](http://twitter.com/share?text=Check%20out%20the%20Personal%20Cyber%20Security%20Checklist-%20an%20ultimate%20list%20of%20tips%20for%20protecting%20your%20digital%20security%20and%20privacy%20in%202020%2C%20with%20%40hamid_k%20%F0%9F%94%90%20%20%F0%9F%9A%80&url=https://github.com/hamid-k/personal-security-checklist-FA)
+[![Share on LinkedIn](https://img.shields.io/badge/Share-LinkedIn-0077b5?style=for-the-badge&logo=LinkedIn)](http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/hamid-k/personal-security-checklist-FA&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=https://github.com/hamid-k)
+[![Share on Mastodon](https://img.shields.io/badge/Share-Mastodon-56a7e1?style=for-the-badge&logo=Mastodon)](https://mastodon.social/web/statuses/new?text=Check%20out%20the%20Ultimate%20Personal%20Cyber%20Security%20Checklist%20by%20%40hamid-k%20on%20%23GitHub%20%20%F0%9F%94%90%20%E2%9C%A8)
 
 
 ## References 📝
@@ -855,5 +853,5 @@ Yelp, Luca Wu. Is Google degrading search? Consumer Harm from Universal Search, 
 
 ---
 
-Licensed under [Creative Commons, CC BY 4.0](/LICENSE.md), © [Alicia Sykes](https://aliciasykes.com) 2022
+Licensed under [Creative Commons, CC BY 4.0](/LICENSE.md), © Alicia Sykes 2022
 

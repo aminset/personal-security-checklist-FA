@@ -45,7 +45,7 @@ export default component$(() => {
     // Override function to handle links
     renderer.link = (href, title, text) => {
       if (href.startsWith('/')) {
-        href = `https://github.com/Lissy93/personal-security-checklist/blob/old-version/${href}`;
+        href = `https://github.com/hamid-k/personal-security-checklist-FA/blob/old-version/${href}`;
       }
       title = title ? `title="${title}"` : '';
       return `<a href="${href}" ${title} target="_blank" rel="noopener noreferrer">${text}</a>`;

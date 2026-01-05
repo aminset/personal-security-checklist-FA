@@ -1,10 +1,10 @@
 # Awesome Privacy & Security Links
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![License](https://img.shields.io/badge/LICENSE-CC_BY_4.0-00a2ff?&style=flat-square)](https://creativecommons.org/licenses/by/4.0/) [![Contributors](https://img.shields.io/github/contributors/lissy93/personal-security-checklist?color=%23ffa900&style=flat-square)](https://github.com/Lissy93/personal-security-checklist/graphs/contributors)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![License](https://img.shields.io/badge/LICENSE-CC_BY_4.0-00a2ff?&style=flat-square)](https://creativecommons.org/licenses/by/4.0/) [![Contributors](https://img.shields.io/github/contributors/hamid-k/personal-security-checklist-FA?color=%23ffa900&style=flat-square)](https://github.com/hamid-k/personal-security-checklist-FA/graphs/contributors)
 
 *A curated list of notable guides, articles, tools and media - relating to digital security, internet freedom and online privacy*
 
-**See also**: [Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist/blob/master/README.md) | [Privacy-Respecting Software](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_Respecting_Software.md) | [Security Gadgets](/6_Privacy_and-Security_Gadgets.md) | [Why Privacy Matters](/0_Why_It_Matters.md) | [TLDR](/2_TLDR_Short_List.md)🔐
+**See also**: [Personal Security Checklist](https://github.com/hamid-k/personal-security-checklist-FA/blob/master/README.md) | [Privacy-Respecting Software](https://github.com/hamid-k/personal-security-checklist-FA/blob/master/5_Privacy_Respecting_Software.md) | [Security Gadgets](/6_Privacy_and-Security_Gadgets.md) | [Why Privacy Matters](/0_Why_It_Matters.md) | [TLDR](/2_TLDR_Short_List.md)🔐
 
 ## Contents
 
@@ -18,7 +18,7 @@
   - [Videos](#videos)
 - **Security Tools & Services**
   - [Online Tools](#online-tools)
-  - Privacy-Respecting Software, moved to [here](https://github.com/Lissy93/awesome-privacy)
+  - Privacy-Respecting Software, moved to [here](https://awesome-privacy.xyz)
   - Security Hardware, moved to [here](/6_Privacy_and-Security_Gadgets.md)
 - **Research**
   - [Data and API's](#data-apis-and-visualisations)
@@ -391,7 +391,7 @@ See also: [awesome-sec-talks](https://github.com/PaulSec/awesome-sec-talks) by @
 
 ## Privacy-Respecting Software
 
-This section has moved to [here](https://github.com/Lissy93/awesome-privacy). Complete list of privacy-respecting software and services
+This section has moved to [here](https://awesome-privacy.xyz). Complete list of privacy-respecting software and services
 
 ## Security Hardware
 
@@ -466,7 +466,7 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
     - [National Grid: Live Status](http://grid.iamkate.com/) - Real-time UK energy stats (by Kate Morley) (similar to [Grid Watch](https://www.gridwatch.templar.co.uk/))
     - [Globe of Economic Complexity](http://globe.cid.harvard.edu/) - Visualize's 15 Trillion dollars of world trade, where each dot is $100,000,000 of export
  
- Interested in discovering more awesome real-time data visualizations? Check out [this post, here](https://listed.to/@lissy93/18611/fun-with-real-time-data) 🌠
+ Interested in discovering more awesome real-time data visualizations? Check out [this post, here](https://listed.to/) 🌠
  
 ## Academic
 
@@ -508,7 +508,7 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
   - [The GNU Privacy Guard](https://www.gnupg.org)
   - [OpenPGP JavaScript Implementation](https://openpgpjs.org)
   - [WireGuard](https://www.wireguard.com/papers/wireguard.pdf)
-  - [Nym](https://as93.link/nym-blog-post) - Next Generation of Privacy infrastructure
+  - [Nym](https://nymtech.net/) - Next Generation of Privacy infrastructure
   - [REC-X.509](https://www.itu.int/rec/T-REC-X.509) - The standard defining the format of public key certificates, used across most internet protocols and applications
   - [obfs4-spec](https://gitweb.torproject.org/pluggable-transports/obfs4.git/tree/doc/obfs4-spec.txt) & [obfs3-protocol-spec](https://gitweb.torproject.org/pluggable-transports/obfsproxy.git/tree/doc/obfs3/obfs3-protocol-spec.txt) - The Tor obfourscator and Pluggable transport for obfuscated traffic
   
@@ -591,12 +591,12 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
   - [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) by 'many'
   - [privacy-respecting](https://github.com/nikitavoloboev/privacy-respecting) by @nikitavoloboev
   - [awesome-privacy](https://github.com/KevinColemanInc/awesome-privacy) by @KevinColemanInc
-  - [privacy-respecting-software](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_Respecting_Software.md) by @lissy93
+  - [privacy-respecting-software](https://github.com/hamid-k/personal-security-checklist-FA/blob/master/5_Privacy_Respecting_Software.md) by Alicia Sykes
 - **Guides**
   - [MacOS-Security-and-Privacy-Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide) by @drduh
   - [YubiKey-Guide](https://github.com/drduh/YubiKey-Guide) by @drduh
   - [Debian-Privacy-Server-Guide](https://github.com/drduh/Debian-Privacy-Server-Guide) by @drduh
-  - [personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) by @lissy93
+  - [personal-security-checklist](https://github.com/hamid-k/personal-security-checklist-FA) by Alicia Sykes
 - **Security Links (Hacking / Pen Testing / Threat Inteligence / CFTs)**
   - [Security_list](https://github.com/zbetcheckin/Security_list) by @zbetcheckin
   - [awesome-security](https://github.com/sbilly/awesome-security) by @sbilly
@@ -620,28 +620,28 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
   - [awesome]( https://github.com/sindresorhus/awesome) by @sindresorhus
   - [lists](https://github.com/jnv/lists) by @jnv
 - **More In This Repo**
-  - [Personal Security Checklist](/README.md) by @lissy93
-  - [Privacy-Respecting Software](https://github.com/Lissy93/awesome-privacy)
+  - [Personal Security Checklist](/README.md) by Alicia Sykes
+  - [Privacy-Respecting Software](https://awesome-privacy.xyz)
   - [Importance of Privacy & Security](/0_Why_It_Matters.md)
   - [Digital Security Gadgets / DIY hardware](/6_Privacy_and-Security_Gadgets.md)
   - [TLDR - Condensed Summary of this Repo](/2_TLDR_Short_List.md)
   
 ---
 
-*Thanks for visiting, hope you found something useful here :) Contributions are welcome, and much appreciated - to propose an edit [raise an issue](https://github.com/Lissy93/personal-security-checklist/issues/new/choose), or [open a PR](https://github.com/Lissy93/personal-security-checklist/pull/new/master). See: [`CONTRIBUTING.md`](/.github/CONTRIBUTING.md).*
+*Thanks for visiting, hope you found something useful here :) Contributions are welcome, and much appreciated - to propose an edit [raise an issue](https://github.com/hamid-k/personal-security-checklist-FA/issues/new/choose), or [open a PR](https://github.com/hamid-k/personal-security-checklist-FA/pull/new/master). See: [`CONTRIBUTING.md`](/.github/CONTRIBUTING.md).*
 
-*Licensed under [Creative Commons, CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), © [Alicia Sykes](https://aliciasykes.com) 2020*
+*Licensed under [Creative Commons, CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), © Alicia Sykes 2020*
 
-[![Attribution 4.0 International](https://licensebuttons.net/l/by/3.0/88x31.png)](https://github.com/Lissy93/personal-security-checklist/blob/master/LICENSE.md)
+[![Attribution 4.0 International](https://licensebuttons.net/l/by/3.0/88x31.png)](https://github.com/hamid-k/personal-security-checklist-FA/blob/master/LICENSE.md)
 
 
 ----
 
 Found this helpful? Consider sharing it with others, to help them also improve their digital security 😇
 
-[![Share on Twitter](https://img.shields.io/badge/Share-Twitter-17a2f3?style=for-the-badge&logo=Twitter)](http://twitter.com/share?text=Check%20out%20the%20Personal%20Cyber%20Security%20Checklist-%20an%20ultimate%20list%20of%20tips%20for%20protecting%20your%20digital%20security%20and%20privacy%20in%202020%2C%20with%20%40Lissy_Sykes%20%F0%9F%94%90%20%20%F0%9F%9A%80&url=https://github.com/Lissy93/personal-security-checklist)
+[![Share on Twitter](https://img.shields.io/badge/Share-Twitter-17a2f3?style=for-the-badge&logo=Twitter)](http://twitter.com/share?text=Check%20out%20the%20Personal%20Cyber%20Security%20Checklist-%20an%20ultimate%20list%20of%20tips%20for%20protecting%20your%20digital%20security%20and%20privacy%20in%202020%2C%20with%20%40hamid_k%20%F0%9F%94%90%20%20%F0%9F%9A%80&url=https://github.com/hamid-k/personal-security-checklist-FA)
 [![Share on LinkedIn](https://img.shields.io/badge/Share-LinkedIn-0077b5?style=for-the-badge&logo=LinkedIn)](
-http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/Lissy93/personal-security-checklist&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=https://github.com/Lissy93)
-[![Share on Facebook](https://img.shields.io/badge/Share-Facebook-4267b2?style=for-the-badge&logo=Facebook)](https://www.linkedin.com/shareArticle?mini=true&url=https%3A//github.com/Lissy93/personal-security-checklist&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=)
-[![Share on Mastodon](https://img.shields.io/badge/Share-Mastodon-56a7e1?style=for-the-badge&logo=Mastodon)](https://mastodon.social/web/statuses/new?text=Check%20out%20the%20Ultimate%20Personal%20Cyber%20Security%20Checklist%20by%20%40Lissy93%20on%20%23GitHub%20%20%F0%9F%94%90%20%E2%9C%A8)
+http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/hamid-k/personal-security-checklist-FA&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=https://github.com/hamid-k)
+[![Share on Facebook](https://img.shields.io/badge/Share-Facebook-4267b2?style=for-the-badge&logo=Facebook)](https://www.linkedin.com/shareArticle?mini=true&url=https%3A//github.com/hamid-k/personal-security-checklist-FA&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=)
+[![Share on Mastodon](https://img.shields.io/badge/Share-Mastodon-56a7e1?style=for-the-badge&logo=Mastodon)](https://mastodon.social/web/statuses/new?text=Check%20out%20the%20Ultimate%20Personal%20Cyber%20Security%20Checklist%20by%20%40hamid-k%20on%20%23GitHub%20%20%F0%9F%94%90%20%E2%9C%A8)
 

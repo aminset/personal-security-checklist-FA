@@ -8,7 +8,7 @@ import { useTranslations } from "~/i18n/use-translations";
 
 export default component$(() => {
   const { t, locale } = useTranslations();
-  const { intro, contributing, projects } = getAboutContent(locale.value);
+  const { intro, contributing } = getAboutContent(locale.value);
 
   interface Contributor {
     login: string;
@@ -24,7 +24,7 @@ export default component$(() => {
   };
 
   const contributorsResource = useResource$<Contributor[]>(async () => {
-    const url = 'https://api.github.com/repos/lissy93/personal-security-checklist/contributors?per_page=100';
+    const url = 'https://api.github.com/repos/hamid-k/personal-security-checklist-FA/contributors?per_page=100';
     const response = await fetch(url);
     if (!response.ok) {
       throw new Error('Failed to fetch contributors');
@@ -32,14 +32,6 @@ export default component$(() => {
     return await response.json();
   });
 
-  const sponsorsResource = useResource$<Contributor[]>(async () => {
-    const url = 'https://github-sponsors.as93.workers.dev/lissy93';
-    const response = await fetch(url);
-    if (!response.ok) {
-      throw new Error('Failed to fetch sponsors');
-    }
-    return await response.json();
-  });
 
 
   return (
@@ -63,43 +55,6 @@ export default component$(() => {
       <article class="bg-back p-8 mx-auto max-w-[1200px] m-8 rounded-lg shadow-md">
         <h2 class="text-3xl mb-2">{t('about.acknowledgments')}</h2>
 
-
-        <h3 class="text-2xl mb-2">{t('about.sponsors')}</h3>
-
-        <p>
-          {t('about.sponsorsThanks')}
-        </p>
-
-        <div class="flex flex-wrap gap-4 my-4 mx-auto">
-          <Resource
-              value={sponsorsResource}
-              onPending={() => <p>{t('misc.loading')}</p>}
-              onResolved={(contributors: Contributor[]) => (
-                contributors.map((contributor: Contributor) => (
-                  <a
-                    class="w-16 tooltip tooltip-bottom"
-                    href={contributor.html_url || `https://github.com/${contributor.login}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    key={contributor.login}
-                    data-tip={t('about.sponsorThanksTooltip', { login: contributor.login })}
-                  >
-                    <img
-                      class="avatar rounded"
-                      width="64" height="64"
-                      src={contributor.avatar_url || contributor.avatarUrl}
-                      alt={contributor.login}
-                    />
-                    <p
-                      class="text-ellipsis overflow-hidden w-max-16 mx-auto line-clamp-2"
-                    >{contributor.name || contributor.login}</p>
-                  </a>
-                ))
-              )}
-            />
-          </div>
-
-        <div class="divider"></div>
 
         <h3 class="text-2xl mb-2">{t('about.contributors')}</h3>
         <p>
@@ -144,9 +99,7 @@ export default component$(() => {
       <article class="bg-back p-8 mx-auto max-w-[1200px] my-8 rounded-lg shadow-md">
         <h2 class="text-3xl mb-2" id="author">{t('about.author')}</h2>
           <p>
-            {t('about.authorIntro')}{' '}
-            <a href="https://aliciasykes.com" class="link link-primary">Alicia Sykes</a>
-            - {t('about.authorHelp')}
+            {t('about.authorIntro')} Alicia Sykes - {t('about.authorHelp')}
           </p>
           <br />
           <div class="ml-4 float-right">
@@ -169,24 +122,9 @@ export default component$(() => {
             {t('about.authorInterests')}<br />
             {t('about.authorProjectsLead')}
           </p>
-          <ul class="list-disc pl-8">
-            {
-              projects.map((project, index) => (
-                <li key={index}>
-                  <img class="rounded inline mr-1" width="20" height="20" alt={project.title} src={project.icon} />
-                  <a href={project.link} class="link link-secondary" target="_blank" rel="noreferrer">
-                    {project.title}
-                  </a> - {project.description}
-                </li>
-              ))
-            }
-          </ul>
           <br />
           <p>
-            {t('about.authorMoreApps')}{' '}
-            <a href="https://apps.aliciasykes.com/" class="link link-primary">apps.aliciasykes.com</a>,
-            {` ${t('misc.or')} `}
-            <a href="https://github.com/lissy93" class="link link-primary">{t('about.followOnGithub')}</a>
+            <a href="https://github.com/hamid-k" class="link link-primary">{t('about.followOnGithub')}</a>
           </p>
 
       </article>
@@ -197,13 +135,13 @@ export default component$(() => {
         <h2 class="text-3xl mb-2">{t('about.license')}</h2>
         <p>
           {t('about.licenseIntroLead')}{' '}
-          <a class="link" href="https://github.com/Lissy93/personal-security-checklist/blob/HEAD/personal-security-checklist.yml">
+          <a class="link" href="https://github.com/hamid-k/personal-security-checklist-FA/blob/HEAD/personal-security-checklist.yml">
             <code>personal-security-checklist.yml</code>
           </a>
           {t('about.licenseIntroChecklist')}{' '}
           <b><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></b>.
           {` ${t('about.licenseIntroCode')} `}
-          <b><a href="https://gist.github.com/Lissy93/143d2ee01ccc5c052a17">MIT</a></b>.
+          <b><a href="https://opensource.org/license/mit">MIT</a></b>.
         </p>
         <pre class="bg-front whitespace-break-spaces rounded text-xs my-2 mx-auto p-2">
           {license}
