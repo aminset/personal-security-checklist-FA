@@ -2,6 +2,7 @@
 import { component$ } from '@builder.io/qwik';
 import articles from '~/data/articles';
 import { useTranslations } from '~/i18n/use-translations';
+import { withBase } from '~/utils/paths';
 
 export default component$(() => {
   const { t, locale } = useTranslations();
@@ -17,7 +18,7 @@ export default component$(() => {
             class="rounded-box bg-front shadow-md p-4 max-w-96 drop-shadow-md
             transition hover:drop-shadow-xl hover:scale-105"
             >
-            <a href={`/article/${article.slug}/`}>
+            <a href={withBase(`article/${article.slug}/`)}>
               <h3 class="text-2xl mb-2">{article.title[locale.value] || article.title.en}</h3>
               <p class="text-lg">{article.description[locale.value] || article.description.en}</p>
             </a>

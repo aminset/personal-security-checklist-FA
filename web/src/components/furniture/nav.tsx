@@ -7,6 +7,7 @@ import articles from '~/data/articles';
 import { ChecklistContext } from '~/store/checklist-context';
 import LanguageToggle from '~/components/core/language-toggle';
 import { useTranslations } from '~/i18n/use-translations';
+import { withBase } from '~/utils/paths';
 
 
 export default component$(() => {
@@ -43,7 +44,7 @@ export default component$(() => {
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
             </label>
           </div> 
-          <a href="/" class="btn btn-ghost text-xl flex capitalize">
+          <a href={withBase('')} class="btn btn-ghost text-xl flex capitalize">
             <label for="my-drawer-3" aria-label="open sidebar" class="tooltip tooltip-bottom" data-tip={t('nav.viewAllPages')}><Icon class="mr-2" icon="shield" width={28} height={28}  /></label>
             <h1>{t('appName')}</h1>
           </a>
@@ -59,7 +60,7 @@ export default component$(() => {
                 <ul class="p-2 bg-base-100 rounded-t-none z-10">
                   {sections.map((item: Section, index: number) => (
                     <li key={`checklist-nav-${index}`} class={`hover:bg-${item.color}-600 hover:bg-opacity-15`}>
-                      <a href={`/checklist/${item.slug}/`}>
+                      <a href={withBase(`checklist/${item.slug}/`)}>
                       <Icon color={item.color} class="mr-2" icon={item.icon} width={16} height={16}  />
                         {item.title}
                       </a>
@@ -109,16 +110,16 @@ export default component$(() => {
           <Icon class="mr-2" icon="shield" width={16} height={16}  />
             {t('appName')}
           </h2>
-          <li><a href="/"><Icon class="mr-2" icon="homepage" width={16} height={16}  />{t('nav.home')}</a></li>
+          <li><a href={withBase('')}><Icon class="mr-2" icon="homepage" width={16} height={16}  />{t('nav.home')}</a></li>
           <li><a href="https://github.com/hamid-k/personal-security-checklist-FA">
             <Icon class="mr-2" icon="github" width={16} height={16}  />GitHub</a>
           </li>
           <li>
-            <a href="/checklist/"><Icon class="mr-2" icon="all" width={16} height={16} />{t('nav.checklists')}</a>
+            <a href={withBase('checklist/')}><Icon class="mr-2" icon="all" width={16} height={16} />{t('nav.checklists')}</a>
             <ul>
               {sections.map((item: Section, index: number) => (
               <li key={`checklist-side-${index}`} class={`hover:bg-${item.color}-600 hover:bg-opacity-15`}>
-                <a href={`/checklist/${item.slug}/`}>
+                <a href={withBase(`checklist/${item.slug}/`)}>
                 <Icon color={item.color} class="mr-2" icon={item.icon} width={16} height={16}  />
                   {item.title}
                 </a>
@@ -127,19 +128,19 @@ export default component$(() => {
             </ul>
           </li>
           <li>
-            <a href="/article/">
+            <a href={withBase('article/')}>
               <Icon class="mr-2" icon="articles" width={16} height={16} />{t('nav.articles')}
             </a>
             <ul>
               {articles.map(article => (
                 <li key={article.slug}>
-                  <a href={`/article/${article.slug}/`}>{article.title[locale.value] || article.title.en}</a>
+                  <a href={withBase(`article/${article.slug}/`)}>{article.title[locale.value] || article.title.en}</a>
                 </li>
               ))}
             </ul>
           </li>
           <li>
-            <a href="/about/">
+            <a href={withBase('about/')}>
               <Icon class="mr-2" icon="about" width={16} height={16} />{t('nav.about')}
             </a>
             <ul>
@@ -152,7 +153,7 @@ export default component$(() => {
             </ul>
             <ul>
             <li>
-              <a href="/about/#author">{t('nav.author')}</a>
+              <a href={withBase('about/#author')}>{t('nav.author')}</a>
             </li>
             </ul>
           </li>
@@ -163,7 +164,7 @@ export default component$(() => {
         <div class="modal-box">
           <div class="tabs tabs-lifted">
             <p class="tab tab-active">{t('nav.settings')}</p>
-            <a class="tab" href="/about">{t('nav.about')}</a>
+            <a class="tab" href={withBase('about/')}>{t('nav.about')}</a>
           </div>
           <div class="modal-action justify-start w-full flex flex-col gap-4">
               <div class="flex items-between w-full justify-between">

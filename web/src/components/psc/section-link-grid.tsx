@@ -4,6 +4,7 @@ import { useLocalStorage } from "~/hooks/useLocalStorage";
 import type { Checklist, Section } from '~/types/PSC';
 import Icon from '~/components/core/icon';
 import { useTranslations } from '~/i18n/use-translations';
+import { withBase } from '~/utils/paths';
 import styles from './psc.module.css';
 
 export default component$((props: { sections: Section[] }) => {
@@ -51,7 +52,7 @@ export default component$((props: { sections: Section[] }) => {
       'transition-all', 'max-w-6xl w-full']}>
       {props.sections.map((section: Section, index: number) => (                   
         <a key={section.slug}
-          href={`/checklist/${section.slug}/`}
+          href={withBase(`checklist/${section.slug}/`)}
           class={[
             'card card-side bg-front bg-opacity-25 shadow-md transition-all px-2 outline-none',
             'hover:outline hover:outline-10 hover:outline-offset-4 hover:bg-opacity-15',
