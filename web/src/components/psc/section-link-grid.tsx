@@ -51,7 +51,7 @@ export default component$((props: { sections: Section[] }) => {
       'transition-all', 'max-w-6xl w-full']}>
       {props.sections.map((section: Section, index: number) => (                   
         <a key={section.slug}
-          href={`/checklist/${section.slug}`}
+          href={`/checklist/${section.slug}/`}
           class={[
             'card card-side bg-front bg-opacity-25 shadow-md transition-all px-2 outline-none',
             'hover:outline hover:outline-10 hover:outline-offset-4 hover:bg-opacity-15',

@@ -380,7 +380,7 @@ export default component$(() => {
           { sections.map((section: Section, index: number) => (
               <li key={index}>
                 <a
-                  href={`/checklist/${section.slug}`}
+                  href={`/checklist/${section.slug}/`}
                   class={[
                     'my-2 w-80 flex justify-between items-center tooltip transition',
                     `hover:text-${section.color}-400`

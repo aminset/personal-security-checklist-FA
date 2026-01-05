@@ -59,7 +59,7 @@ export default component$(() => {
                 <ul class="p-2 bg-base-100 rounded-t-none z-10">
                   {sections.map((item: Section, index: number) => (
                     <li key={`checklist-nav-${index}`} class={`hover:bg-${item.color}-600 hover:bg-opacity-15`}>
-                      <a href={`/checklist/${item.slug}`}>
+                      <a href={`/checklist/${item.slug}/`}>
                       <Icon color={item.color} class="mr-2" icon={item.icon} width={16} height={16}  />
                         {item.title}
                       </a>
@@ -114,11 +114,11 @@ export default component$(() => {
             <Icon class="mr-2" icon="github" width={16} height={16}  />GitHub</a>
           </li>
           <li>
-            <a href="/checklist"><Icon class="mr-2" icon="all" width={16} height={16} />{t('nav.checklists')}</a>
+            <a href="/checklist/"><Icon class="mr-2" icon="all" width={16} height={16} />{t('nav.checklists')}</a>
             <ul>
               {sections.map((item: Section, index: number) => (
               <li key={`checklist-side-${index}`} class={`hover:bg-${item.color}-600 hover:bg-opacity-15`}>
-                <a href={`/checklist/${item.slug}`}>
+                <a href={`/checklist/${item.slug}/`}>
                 <Icon color={item.color} class="mr-2" icon={item.icon} width={16} height={16}  />
                   {item.title}
                 </a>
@@ -127,19 +127,19 @@ export default component$(() => {
             </ul>
           </li>
           <li>
-            <a href="/article">
+            <a href="/article/">
               <Icon class="mr-2" icon="articles" width={16} height={16} />{t('nav.articles')}
             </a>
             <ul>
               {articles.map(article => (
                 <li key={article.slug}>
-                  <a href={`/article/${article.slug}`}>{article.title[locale.value] || article.title.en}</a>
+                  <a href={`/article/${article.slug}/`}>{article.title[locale.value] || article.title.en}</a>
                 </li>
               ))}
             </ul>
           </li>
           <li>
-            <a href="/about">
+            <a href="/about/">
               <Icon class="mr-2" icon="about" width={16} height={16} />{t('nav.about')}
             </a>
             <ul>
@@ -152,7 +152,7 @@ export default component$(() => {
             </ul>
             <ul>
             <li>
-              <a href="/about#author">{t('nav.author')}</a>
+              <a href="/about/#author">{t('nav.author')}</a>
             </li>
             </ul>
           </li>
