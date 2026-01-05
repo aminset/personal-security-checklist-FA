@@ -4,7 +4,7 @@ import { marked } from 'marked';
 
 import Icon from '~/components/core/icon';
 import { ChecklistContext } from '~/store/checklist-context';
-import type { Section, Sections } from "~/types/PSC";
+import type { Section } from "~/types/PSC";
 import Table from '~/components/psc/checklist-table';
 import { useTranslations } from '~/i18n/use-translations';
 import { getChecklist } from '~/data/checklists';

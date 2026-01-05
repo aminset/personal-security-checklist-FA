@@ -118,6 +118,7 @@ type Translations = {
   };
   misc: {
     loading: string;
+    loadingFailed: string;
     articlesTitle: string;
     or: string;
   };
@@ -245,6 +246,7 @@ export const translations: Record<Locale, Translations> = {
     },
     misc: {
       loading: 'Loading...',
+      loadingFailed: 'Unable to load right now.',
       articlesTitle: 'Articles',
       or: 'or',
     },
@@ -370,6 +372,7 @@ export const translations: Record<Locale, Translations> = {
     },
     misc: {
       loading: 'در حال بارگذاری...',
+      loadingFailed: 'در حال حاضر بارگذاری ممکن نیست.',
       articlesTitle: 'مقالات',
       or: 'یا',
     },

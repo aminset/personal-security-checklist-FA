@@ -29,7 +29,10 @@ export default component$((props: { sections: Section[] }) => {
   });
 
   // On load (in browser only), calculate and set completion data for sections
-  useVisibleTask$(async () => {
+  useVisibleTask$(async ({ track }) => {
+    track(() => props.sections);
+    track(() => checked.value);
+    track(() => ignored.value);
     // Percentage completion, per section
     completions.value = await Promise.all(props.sections.map(section => 
       getPercentCompletion(section),

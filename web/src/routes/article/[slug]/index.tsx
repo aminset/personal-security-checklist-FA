@@ -73,6 +73,17 @@ export default component$(() => {
       return '';
     }
 
+    if (import.meta.env.SSR) {
+      const { readFile } = await import('node:fs/promises');
+      const { resolve } = await import('node:path');
+      const baseUrl = import.meta.env.BASE_URL || '/';
+      const relativePath = article.markdown.startsWith(baseUrl)
+        ? article.markdown.slice(baseUrl.length)
+        : article.markdown.replace(/^\//, '');
+      const filePath = resolve(process.cwd(), 'public', relativePath);
+      return readFile(filePath, 'utf-8');
+    }
+
     const response = await fetch(article.markdown);
     if (!response.ok) {
       store.notFound = true;

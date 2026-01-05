@@ -1,4 +1,4 @@
-import { component$, Slot, useContextProvider, useSignal, useTask$ } from "@builder.io/qwik";
+import { component$, Slot, useContextProvider, useSignal, useVisibleTask$ } from "@builder.io/qwik";
 import { type RequestHandler } from "@builder.io/qwik-city";
 
 import Navbar from "~/components/furniture/nav";
@@ -21,9 +21,9 @@ export default component$(() => {
   const checklists = useSignal(getChecklist(localeStore.locale.value));
   useContextProvider(ChecklistContext, checklists);
 
-  useTask$(({ track }) => {
+  useVisibleTask$(({ track }) => {
     const locale = track(() => localeStore.locale.value);
-    checklists.value = getChecklist(locale);
+    checklists.value = [...getChecklist(locale)];
   });
 
   return (

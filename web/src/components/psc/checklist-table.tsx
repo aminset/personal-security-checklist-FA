@@ -20,8 +20,6 @@ export default component$((props: { section: Section }) => {
 
   const sortState = useStore({ column: '', ascending: true });
 
-  const checklist = useSignal<Checklist[]>(props.section.checklist);
-
   const originalFilters = {
     show: 'all', // 'all', 'remaining', 'completed'
     levels: {
@@ -77,7 +75,7 @@ export default component$((props: { section: Section }) => {
     return completed.value[pointId] || false;
   };
 
-  const filteredChecklist = checklist.value.filter((item) => {
+  const filteredChecklist = props.section.checklist.filter((item) => {
     const itemId = generateId(item.point);
     const itemCompleted = isChecked(itemId);
     const itemIgnored = isIgnored(itemId);
@@ -129,7 +127,6 @@ export default component$((props: { section: Section }) => {
   });
 
   const resetFilters = $(() => {
-    checklist.value = props.section.checklist;
     sortState.column = '';
     sortState.ascending = true;
     filterState.levels = originalFilters.levels;

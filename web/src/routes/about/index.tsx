@@ -1,4 +1,4 @@
-import { component$, useResource$, Resource } from "@builder.io/qwik";
+import { component$, useSignal, useVisibleTask$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 
 import Icon from "~/components/core/icon";
@@ -23,13 +23,21 @@ export default component$(() => {
     return marked.parse(text || '', { async: false }) as string || '';
   };
 
-  const contributorsResource = useResource$<Contributor[]>(async () => {
-    const url = 'https://api.github.com/repos/hamid-k/personal-security-checklist-FA/contributors?per_page=100';
-    const response = await fetch(url);
-    if (!response.ok) {
-      throw new Error('Failed to fetch contributors');
+  const contributors = useSignal<Contributor[]>([]);
+  const contributorsError = useSignal(false);
+
+  useVisibleTask$(async () => {
+    try {
+      const url = 'https://api.github.com/repos/hamid-k/personal-security-checklist-FA/contributors?per_page=100';
+      const response = await fetch(url);
+      if (!response.ok) {
+        throw new Error('Failed to fetch contributors');
+      }
+      contributors.value = await response.json();
+    } catch (error) {
+      console.log(error);
+      contributorsError.value = true;
     }
-    return await response.json();
   });
 
 
@@ -62,35 +70,33 @@ export default component$(() => {
           {t('about.contributorsSpecialThanks')}
         </p>
         <div class="flex flex-wrap gap-4 my-4 mx-auto">
-          <Resource
-            value={contributorsResource}
-            onPending={() => <p>{t('misc.loading')}</p>}
-            onResolved={(contributors: Contributor[]) => (
-              contributors.map((contributor: Contributor) => (
-                <a
-                  class="w-16 tooltip tooltip-bottom"
-                  href={contributor.html_url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  key={contributor.login}
-                  data-tip={t('about.contributorTooltip', {
-                    login: contributor.login,
-                    contributions: contributor.contributions,
-                  })}
-                >
-                  <img
-                    class="avatar rounded"
-                    width="64" height="64"
-                    src={contributor.avatar_url}
-                    alt={contributor.login}
-                  />
-                  <p
-                    class="text-ellipsis overflow-hidden w-max-16 mx-auto"
-                  >{contributor.login}</p>
-                </a>
-              ))
-            )}
-          />
+          {contributorsError.value && <p>{t('misc.loadingFailed')}</p>}
+          {!contributorsError.value && contributors.value.length === 0 && (
+            <p>{t('misc.loading')}</p>
+          )}
+          {contributors.value.map((contributor: Contributor) => (
+            <a
+              class="w-16 tooltip tooltip-bottom"
+              href={contributor.html_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              key={contributor.login}
+              data-tip={t('about.contributorTooltip', {
+                login: contributor.login,
+                contributions: contributor.contributions,
+              })}
+            >
+              <img
+                class="avatar rounded"
+                width="64" height="64"
+                src={contributor.avatar_url}
+                alt={contributor.login}
+              />
+              <p
+                class="text-ellipsis overflow-hidden w-max-16 mx-auto"
+              >{contributor.login}</p>
+            </a>
+          ))}
         </div>
 
       </article>

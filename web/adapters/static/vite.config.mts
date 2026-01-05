@@ -13,6 +13,7 @@ export default extendConfig(baseConfig, () => {
     plugins: [
       staticAdapter({
         origin: process.env.PUBLIC_ORIGIN || "http://localhost",
+        maxWorkers: 1,
       }),
     ],
   };

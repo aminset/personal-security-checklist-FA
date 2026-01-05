@@ -4,7 +4,10 @@ on:
   workflow_dispatch:
   push:
     branches: [ master ]
-    paths: ['personal-security-checklist.yml']
+    paths:
+      - 'personal-security-checklist.yml'
+      - 'personal-security-checklist.en.yml'
+      - 'personal-security-checklist.fa.yml'
     
 jobs:
   build:
@@ -31,9 +34,11 @@ jobs:
           python -m pip install --upgrade pip
           cd lib && pip install -r requirements.txt
 
-      # The make command triggers all the Python scripts, generates output
-      - name: Run make command 🔨
-        run: python lib/generate.py
+      # Generate Markdown from YAML
+      - name: Generate checklist markdown 🔨
+        run: |
+          python lib/generate.py --input personal-security-checklist.en.yml --output CHECKLIST.md --locale en
+          python lib/generate.py --input personal-security-checklist.fa.yml --output CHECKLIST.fa.md --locale fa
 
       # Commit and push the outputed JSON files
       - name: Commit and push generated files ⤴️
@@ -41,7 +46,7 @@ jobs:
           git config --global user.name "hamid-k"
           git config --global user.email "hamid-k@users.noreply.github.com"
           git pull origin master
-          git add CHECKLIST.md
+          git add CHECKLIST.md CHECKLIST.fa.md
           if git diff --staged --quiet; then
             echo "Nothin new added, so nothing to commit, exiting..."
           else
