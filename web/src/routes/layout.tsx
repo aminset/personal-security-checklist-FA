@@ -1,6 +1,7 @@
 import { component$, useContextProvider, Slot } from "@builder.io/qwik";
 import { routeLoader$, type RequestHandler } from "@builder.io/qwik-city";
 import jsyaml from "js-yaml";
+import checklistYaml from '../../public/personal-security-checklist.yml?raw';
 
 import Navbar from "~/components/furniture/nav";
 import Footer from "~/components/furniture/footer";
@@ -10,11 +11,12 @@ import { useLocale } from "~/store/locale-store";
 import type { Sections } from "~/types/PSC";
 
 export const useChecklists = routeLoader$(async () => {
-  const remoteUrl = 'https://raw.githubusercontent.com/Lissy93/personal-security-checklist/HEAD/personal-security-checklist.yml';
-  return fetch(remoteUrl)
-    .then((res) => res.text())
-    .then((res) => jsyaml.load(res) as Sections)
-    .catch(() => []);
+  try {
+    return jsyaml.load(checklistYaml) as Sections;
+  } catch (error) {
+    console.log(error);
+    return [];
+  }
 });
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {

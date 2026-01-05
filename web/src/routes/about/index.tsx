@@ -82,7 +82,7 @@ export default component$(() => {
                     target="_blank"
                     rel="noopener noreferrer"
                     key={contributor.login}
-                    data-tip={`Thank you @${contributor.login}`}
+                    data-tip={t('about.sponsorThanksTooltip', { login: contributor.login })}
                   >
                     <img
                       class="avatar rounded"
@@ -118,7 +118,10 @@ export default component$(() => {
                   target="_blank"
                   rel="noopener noreferrer"
                   key={contributor.login}
-                  data-tip={`@${contributor.login} has contributed ${contributor.contributions} times\n\nClick to view their profile`}
+                  data-tip={t('about.contributorTooltip', {
+                    login: contributor.login,
+                    contributions: contributor.contributions,
+                  })}
                 >
                   <img
                     class="avatar rounded"
@@ -182,8 +185,8 @@ export default component$(() => {
           <p>
             {t('about.authorMoreApps')}{' '}
             <a href="https://apps.aliciasykes.com/" class="link link-primary">apps.aliciasykes.com</a>,
-            {locale.value === 'fa' ? ' یا ' : ' or '}
-            <a href="https://github.com/lissy93" class="link link-primary">follow me on GitHub</a>
+            {` ${t('misc.or')} `}
+            <a href="https://github.com/lissy93" class="link link-primary">{t('about.followOnGithub')}</a>
           </p>
 
       </article>
@@ -193,13 +196,14 @@ export default component$(() => {
       <article class="bg-back p-8 mx-auto max-w-[1200px] m-8 rounded-lg shadow-md">
         <h2 class="text-3xl mb-2">{t('about.license')}</h2>
         <p>
-          This project is split-licensed, with the checklist content (located
-          in <a class="link" href="https://github.com/Lissy93/personal-security-checklist/blob/HEAD/personal-security-checklist.yml">
+          {t('about.licenseIntroLead')}{' '}
+          <a class="link" href="https://github.com/Lissy93/personal-security-checklist/blob/HEAD/personal-security-checklist.yml">
             <code>personal-security-checklist.yml</code>
-          </a>) being licensed
-          under <b><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></b>.
-          And everything else (including all the code), licensed
-          under <b><a href="https://gist.github.com/Lissy93/143d2ee01ccc5c052a17">MIT</a></b>.
+          </a>
+          {t('about.licenseIntroChecklist')}{' '}
+          <b><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></b>.
+          {` ${t('about.licenseIntroCode')} `}
+          <b><a href="https://gist.github.com/Lissy93/143d2ee01ccc5c052a17">MIT</a></b>.
         </p>
         <pre class="bg-front whitespace-break-spaces rounded text-xs my-2 mx-auto p-2">
           {license}
@@ -225,11 +229,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "About | Digital Defense",
+  title: "درباره | دفاع دیجیتال",
   meta: [
     {
       name: "description",
-      content: "This project aims to give you practical guidance on how to improve your digital security, and protect your privacy online",
+      content: "این پروژه برای ارائه راهنمای عملی جهت بهبود امنیت دیجیتال و حفاظت از حریم خصوصی آنلاین شما طراحی شده است.",
     },
   ],
 };

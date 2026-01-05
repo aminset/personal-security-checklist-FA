@@ -121,11 +121,11 @@ export const onStaticGenerate: StaticGenerateHandler = async () => {
 };
 
 export const head: DocumentHead = {
-  title: "Article | Digital Defense",
+  title: "مقاله | دفاع دیجیتال",
   meta: [
     {
       name: "description",
-      content: "",
+      content: "مقاله‌های آموزشی درباره امنیت دیجیتال و حریم خصوصی.",
     },
   ],
 };

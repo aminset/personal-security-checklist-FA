@@ -20,7 +20,7 @@ const articles: Article[] = [
       fa: 'چرا امنیت دیجیتال و حریم خصوصی شما باید جدی گرفته شود.',
     },
     slug: 'importance-of-digital-security',
-    markdown: 'https://raw.githubusercontent.com/Lissy93/personal-security-checklist/old-version/0_Why_It_Matters.md',
+    markdown: '/articles/0_Why_It_Matters.md',
   },
   {
     title: {
@@ -32,7 +32,7 @@ const articles: Article[] = [
       fa: 'فهرست اصلی طولانی است؟ این خلاصه کوتاه را ببینید.',
     },
     slug: 'short-list',
-    markdown: 'https://raw.githubusercontent.com/Lissy93/personal-security-checklist/old-version/2_TLDR_Short_List.md',
+    markdown: '/articles/2_TLDR_Short_List.md',
   },
   {
     title: {
@@ -44,7 +44,7 @@ const articles: Article[] = [
       fa: 'فهرست ابزارها، منابع و اطلاعات تکمیلی.',
     },
     slug: 'helpful-links',
-    markdown: 'https://raw.githubusercontent.com/Lissy93/personal-security-checklist/old-version/4_Privacy_And_Security_Links.md',
+    markdown: '/articles/4_Privacy_And_Security_Links.md',
     warningMessage: {
       en: 'This article was written in 2020, and needs updating.',
       fa: 'این مقاله در سال 2020 نوشته شده و نیاز به به روزرسانی دارد.',
@@ -60,7 +60,7 @@ const articles: Article[] = [
       fa: 'دستگاه های سخت افزاری مفید برای حفاظت از حریم خصوصی و امنیت شما.',
     },
     slug: 'privacy-gadgets',
-    markdown: 'https://raw.githubusercontent.com/Lissy93/personal-security-checklist/old-version/6_Privacy_and-Security_Gadgets.md',
+    markdown: '/articles/6_Privacy_and-Security_Gadgets.md',
     warningMessage: {
       en: 'This article is outdated and may contain incorrect information. '
         +'It is recommended to verify the information before using any of the products listed.',
@@ -78,7 +78,7 @@ const articles: Article[] = [
       fa: 'فهرست جامع جایگزین های سازگار با حریم خصوصی برای برنامه ها و سرویس های محبوب.',
     },
     slug: 'awesome-privacy',
-    markdown: 'https://raw.githubusercontent.com/Lissy93/awesome-privacy/main/README.md',
+    markdown: '/articles/5_Privacy_Respecting_Software.md',
     warningMessage: {
       en: 'This resource has moved! You can now access it at github.com/Lissy93/awesome-privacy',
       fa: 'این منبع منتقل شده است. اکنون می توانید آن را در github.com/Lissy93/awesome-privacy ببینید.',

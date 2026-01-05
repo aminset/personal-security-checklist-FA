@@ -1,6 +1,6 @@
 export type Locale = 'en' | 'fa';
 
-export const defaultLocale: Locale = 'en';
+export const defaultLocale: Locale = 'fa';
 
 type Translations = {
   appName: string;
@@ -106,6 +106,12 @@ type Translations = {
     authorProjectsLead: string;
     authorMoreApps: string;
     license: string;
+    sponsorThanksTooltip: string;
+    contributorTooltip: string;
+    followOnGithub: string;
+    licenseIntroLead: string;
+    licenseIntroChecklist: string;
+    licenseIntroCode: string;
     licenseSummaryTitle: string;
     licenseSummaryBody: string;
     licenseSummaryBody2: string;
@@ -113,6 +119,7 @@ type Translations = {
   misc: {
     loading: string;
     articlesTitle: string;
+    or: string;
   };
   notFound: {
     title: string;
@@ -226,6 +233,12 @@ export const translations: Record<Locale, Translations> = {
       authorProjectsLead: 'So if this type of stuff interests you, check out these other projects:',
       authorMoreApps: 'For more open source apps I have published, see',
       license: 'License',
+      sponsorThanksTooltip: 'Thank you @{login}',
+      contributorTooltip: '@{login} has contributed {contributions} times\n\nClick to view their profile',
+      followOnGithub: 'follow me on GitHub',
+      licenseIntroLead: 'This project is split-licensed, with the checklist content (located in',
+      licenseIntroChecklist: ') being licensed under',
+      licenseIntroCode: 'And everything else (including all the code), licensed under',
       licenseSummaryTitle: 'What does this mean for you?',
       licenseSummaryBody: 'This means that for everything (except the checklist YAML file), you have almost unlimited freedom to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of this software. All that we ask is that you include the original copyright notice and permission notice in any copies of the software.',
       licenseSummaryBody2: 'And for the security-list content you can share and adapt this content as long as you give appropriate credit, do not use it for commercial purposes, and distribute your contributions under the same license.',
@@ -233,6 +246,7 @@ export const translations: Record<Locale, Translations> = {
     misc: {
       loading: 'Loading...',
       articlesTitle: 'Articles',
+      or: 'or',
     },
     notFound: {
       title: '404 Not Found',
@@ -247,7 +261,7 @@ export const translations: Record<Locale, Translations> = {
     },
     language: {
       label: 'زبان',
-      english: 'English',
+      english: 'انگلیسی',
       farsi: 'فارسی',
     },
     hero: {
@@ -344,6 +358,12 @@ export const translations: Record<Locale, Translations> = {
       authorProjectsLead: 'اگر این موضوعات برایتان جذاب است، این پروژه ها را هم ببینید:',
       authorMoreApps: 'برای دیدن برنامه های متن باز بیشتری که منتشر کرده ام، به',
       license: 'مجوز',
+      sponsorThanksTooltip: 'از @{login} بابت حمایت متشکریم',
+      contributorTooltip: '@{login} تاکنون {contributions} بار مشارکت کرده است\n\nبرای مشاهده پروفایل کلیک کنید',
+      followOnGithub: 'من را در گیت هاب دنبال کنید',
+      licenseIntroLead: 'این پروژه با دو مجوز منتشر شده است؛ محتوای چک لیست (که در',
+      licenseIntroChecklist: ') تحت مجوز',
+      licenseIntroCode: 'و سایر بخش ها (از جمله تمام کد)، تحت مجوز',
       licenseSummaryTitle: 'این برای شما چه معنایی دارد؟',
       licenseSummaryBody: 'این یعنی برای همه چیز (به جز فایل چک لیست YAML)، تقریباً آزادی کامل برای استفاده، کپی، تغییر، ادغام، انتشار، توزیع، ارائه مجوز فرعی یا فروش نسخه ها دارید. فقط کافی است اعلان حق نشر و مجوز اصلی را در نسخه های نرم افزار بیاورید.',
       licenseSummaryBody2: 'و برای محتوای چک لیست امنیتی، می توانید محتوا را به اشتراک بگذارید و تطبیق دهید؛ به شرطی که اعتبار مناسب بدهید، از آن استفاده تجاری نکنید و مشارکت های خود را تحت همان مجوز منتشر کنید.',
@@ -351,6 +371,7 @@ export const translations: Record<Locale, Translations> = {
     misc: {
       loading: 'در حال بارگذاری...',
       articlesTitle: 'مقالات',
+      or: 'یا',
     },
     notFound: {
       title: 'یافت نشد 404',
