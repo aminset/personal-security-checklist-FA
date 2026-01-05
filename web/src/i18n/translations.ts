@@ -1,6 +1,6 @@
 export type Locale = 'en' | 'fa';
 
-export const defaultLocale: Locale = 'fa';
+export const defaultLocale: Locale = 'en';
 
 type Translations = {
   appName: string;

@@ -1,4 +1,4 @@
-import { $, component$, useOnWindow, useSignal } from "@builder.io/qwik";
+import { $, component$, useSignal, useVisibleTask$ } from "@builder.io/qwik";
 
 import { useLocalStorage } from "~/hooks/useLocalStorage";
 import type { Checklist, Section } from '~/types/PSC';
@@ -10,8 +10,8 @@ export default component$((props: { sections: Section[] }) => {
   const { t } = useTranslations();
 
   // Create signals to store the number of items done or ignored per section
-  const completions =  useSignal<number[]>();
-  const done =  useSignal<number[]>();
+  const completions =  useSignal<number[]>([]);
+  const done =  useSignal<number[]>([]);
 
   // Get the IDs of completed and ignore items from local storage
   const [checked] = useLocalStorage('PSC_PROGRESS', {});
@@ -29,7 +29,7 @@ export default component$((props: { sections: Section[] }) => {
   });
 
   // On load (in browser only), calculate and set completion data for sections
-  useOnWindow('load', $(async () => {
+  useVisibleTask$(async () => {
     // Percentage completion, per section
     completions.value = await Promise.all(props.sections.map(section => 
       getPercentCompletion(section),
@@ -40,7 +40,7 @@ export default component$((props: { sections: Section[] }) => {
         (item) => checked.value[item.point.toLowerCase().replace(/ /g, '-')],
       ).length
     ));
-  }));
+  });
 
   return (
     <div class={[styles.container, 'grid',
@@ -50,10 +50,9 @@ export default component$((props: { sections: Section[] }) => {
         <a key={section.slug}
           href={`/checklist/${section.slug}`}
           class={[
-            'card card-side bg-front bg-opacity-25 shadow-md transition-all px-2',
-            `outline-offset-2 outline-${section.color}-400`,
+            'card card-side bg-front bg-opacity-25 shadow-md transition-all px-2 outline-none',
             'hover:outline hover:outline-10 hover:outline-offset-4 hover:bg-opacity-15',
-            `hover:bg-${section.color}-600`
+            `hover:outline-${section.color}-400 hover:bg-${section.color}-600`
           ]}
         >
           <div class="flex-shrink-0 flex flex-col py-4 h-auto items-stretch justify-evenly">

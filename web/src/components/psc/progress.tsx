@@ -1,4 +1,4 @@
-import { $, component$, useSignal, useOnWindow, useContext } from "@builder.io/qwik";
+import { $, component$, useSignal, useContext, useVisibleTask$ } from "@builder.io/qwik";
 import { Chart, registerables } from 'chart.js';
 
 import { useLocalStorage } from "~/hooks/useLocalStorage";
@@ -162,7 +162,7 @@ export default component$(() => {
    * When the window has loaded (client-side only)
    * Initiate the filtering, calculation and rendering of progress charts
    */
-  useOnWindow('load', $(() => {
+  useVisibleTask$(() => {
 
     calculateProgress(sections)
       .then((progress) => {
@@ -172,19 +172,19 @@ export default component$(() => {
     makeDataAndDrawChart('essential', 'hsl(var(--su, 158 64% 52%))');
     makeDataAndDrawChart('optional', 'hsl(var(--wa, 43 96% 56%))');
     makeDataAndDrawChart('advanced', 'hsl(var(--er, 0 91% 71%))');
-  }));
+  });
 
 
   /**
    * Calculates the percentage of completion for each section
    */
-  useOnWindow('load', $(async () => {
+  useVisibleTask$(async () => {
     sectionCompletion.value = await Promise.all(sections.map(section => {
       return calculateProgress([section]).then(
         (progress) => Math.round(progress.completed / progress.outOf * 100)
       );
     }));
-  }));
+  });
 
 
   interface RadarChartData {
@@ -244,7 +244,7 @@ export default component$(() => {
   
   
 
-  useOnWindow('load', $(() => {
+  useVisibleTask$(() => {
     Chart.register(...registerables);
 
     makeRadarData(sections).then((data) => {
@@ -300,7 +300,7 @@ export default component$(() => {
         
       }
     });
-  }));
+  });
 
   const items = [
     { id: 'essential-container', label: copy.essential },

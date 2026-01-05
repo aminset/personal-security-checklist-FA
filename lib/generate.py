@@ -19,22 +19,15 @@ def read_yaml(file_path):
 def generate_markdown_section(section):
     markdown = f"## {section['title']}\n\n"
     markdown += f"{section['intro']}\n\n"
-    markdown += "**اقدام امنیتی** | **اولویت** | **جزئیات و راهنما**\n"
+    markdown += "**Security** | **Priority** | **Details and Hints**\n"
     markdown += "--- | --- | ---\n"
-    priority_map = {
-        "Essential": "ضروری",
-        "Optional": "اختیاری",
-        "Advanced": "پیشرفته",
-        "Basic": "پایه",
-    }
     for item in section['checklist']:
-        priority_label = priority_map.get(item['priority'], item['priority'])
-        markdown += f"**{item['point']}** | {priority_label} | {item['details']}\n"
+        markdown += f"**{item['point']}** | {item['priority']} | {item['details']}\n"
     
     if 'softwareLinks' in section:
         software_links = [software for software in section['softwareLinks'] if 'title' in software and 'url' in software]
         if software_links:
-            markdown += "\n### نرم‌افزارهای پیشنهادی\n"
+            markdown += "\n### Recommended Software\n"
             for software in software_links:
                 markdown += f"- [{software['title']}]({software['url']})\n"
     

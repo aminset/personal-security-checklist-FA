@@ -229,11 +229,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "درباره | دفاع دیجیتال",
+  title: "About | Digital Defense",
   meta: [
     {
       name: "description",
-      content: "این پروژه برای ارائه راهنمای عملی جهت بهبود امنیت دیجیتال و حفاظت از حریم خصوصی آنلاین شما طراحی شده است.",
+      content: "Practical guidance to improve your digital security and protect your privacy online.",
     },
   ],
 };

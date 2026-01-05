@@ -1,23 +1,12 @@
-import { component$, useContextProvider, Slot } from "@builder.io/qwik";
-import { routeLoader$, type RequestHandler } from "@builder.io/qwik-city";
-import jsyaml from "js-yaml";
-import checklistYaml from '../../public/personal-security-checklist.yml?raw';
+import { component$, Slot, useContextProvider, useSignal, useTask$ } from "@builder.io/qwik";
+import { type RequestHandler } from "@builder.io/qwik-city";
 
 import Navbar from "~/components/furniture/nav";
 import Footer from "~/components/furniture/footer";
 import { ChecklistContext } from "~/store/checklist-context";
 import { LocaleContext } from "~/store/locale-context";
 import { useLocale } from "~/store/locale-store";
-import type { Sections } from "~/types/PSC";
-
-export const useChecklists = routeLoader$(async () => {
-  try {
-    return jsyaml.load(checklistYaml) as Sections;
-  } catch (error) {
-    console.log(error);
-    return [];
-  }
-});
+import { getChecklist } from "~/data/checklists";
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {
   cacheControl({
@@ -27,10 +16,15 @@ export const onGet: RequestHandler = async ({ cacheControl }) => {
 };
 
 export default component$(() => {
-  const checklists = useChecklists();
-  useContextProvider(ChecklistContext, checklists);
   const localeStore = useLocale();
   useContextProvider(LocaleContext, localeStore);
+  const checklists = useSignal(getChecklist(localeStore.locale.value));
+  useContextProvider(ChecklistContext, checklists);
+
+  useTask$(({ track }) => {
+    const locale = track(() => localeStore.locale.value);
+    checklists.value = getChecklist(locale);
+  });
 
   return (
     <>
