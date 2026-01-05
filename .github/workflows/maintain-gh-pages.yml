@@ -15,8 +15,8 @@ jobs:
 
       - name: Configure git
         run: |
-          git config --global user.email "liss-bot@d0h.co"
-          git config --global user.name "Liss.Bot"
+          git config --global user.email "hamid-k@users.noreply.github.com"
+          git config --global user.name "hamid-k"
 
       - name: Copy CHECKLIST.md to gh-pages
         run: |
