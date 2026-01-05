@@ -482,7 +482,7 @@ CCTV یکی از راه‌های اصلی ردیابی حرکت شما توسط 
 ----
 
 #### There's an interactive version!
-- [Digital Defense](https://hamid-k.github.io/personal-security-checklist-FA/) - View details, check items of, and track your progress
+- [Digital Defense](https://amni.at/) - View details, check items of, and track your progress
 
 #### Other Awesome Security Lists
 - @sbilly/[awesome-security](https://github.com/sbilly/awesome-security)
@@ -511,8 +511,8 @@ CCTV یکی از راه‌های اصلی ردیابی حرکت شما توسط 
 
 Found this helpful? Consider sharing it with others, to help them also improve their digital security 😇
 
-[![Share on Twitter](https://img.shields.io/badge/Share-Twitter-17a2f3?style=for-the-badge&logo=Twitter)](http://twitter.com/share?text=Check%20out%20the%20Personal%20Cyber%20Security%20Checklist-%20an%20ultimate%20list%20of%20tips%20for%20protecting%20your%20digital%20security%20and%20privacy%20in%202020%2C%20with%20%40hamid_k%20%F0%9F%94%90%20%20%F0%9F%9A%80&url=https://github.com/hamid-k/personal-security-checklist-FA)
+[![Share on Twitter](https://img.shields.io/badge/Share-Twitter-17a2f3?style=for-the-badge&logo=Twitter)](http://twitter.com/share?text=Check%20out%20the%20Personal%20Cyber%20Security%20Checklist-%20an%20ultimate%20list%20of%20tips%20for%20protecting%20your%20digital%20security%20and%20privacy%20in%202020%2C%20with%20%40hamid_k%20%F0%9F%94%90%20%20%F0%9F%9A%80&url=https://amni.at)
 [![Share on LinkedIn](https://img.shields.io/badge/Share-LinkedIn-0077b5?style=for-the-badge&logo=LinkedIn)](
-http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/hamid-k/personal-security-checklist-FA&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=https://github.com/hamid-k)
-[![Share on Facebook](https://img.shields.io/badge/Share-Facebook-4267b2?style=for-the-badge&logo=Facebook)](https://www.linkedin.com/shareArticle?mini=true&url=https%3A//github.com/hamid-k/personal-security-checklist-FA&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=)
+http://www.linkedin.com/shareArticle?mini=true&url=https://amni.at&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=https://amni.at)
+[![Share on Facebook](https://img.shields.io/badge/Share-Facebook-4267b2?style=for-the-badge&logo=Facebook)](https://www.linkedin.com/shareArticle?mini=true&url=https%3A//amni.at&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=)
 [![Share on Mastodon](https://img.shields.io/badge/Share-Mastodon-56a7e1?style=for-the-badge&logo=Mastodon)](https://mastodon.social/web/statuses/new?text=Check%20out%20the%20Ultimate%20Personal%20Cyber%20Security%20Checklist%20by%20%40hamid-k%20on%20%23GitHub%20%20%F0%9F%94%90%20%E2%9C%A8)
