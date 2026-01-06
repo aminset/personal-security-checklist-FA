@@ -9,3 +9,8 @@
     text-decoration: underline;
   }
 }
+
+html[dir="rtl"] .checklistItemDescription {
+  direction: rtl;
+  text-align: right;
+}
