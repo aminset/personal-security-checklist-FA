@@ -47,4 +47,11 @@ html[dir="rtl"] .drawer-side .menu li > a > *:first-child {
 html[dir="rtl"] .drawer-side .menu ul {
   padding-right: 1.5rem;
   padding-left: 0;
+  margin-right: 1rem;
+  margin-left: 0;
+}
+
+html[dir="rtl"] .drawer-side .menu ul::before {
+  right: 0;
+  left: auto;
 }
