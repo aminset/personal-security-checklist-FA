@@ -3,13 +3,23 @@
 <p align="center">
 <b><i>The ultimate list of tips to secure your digital life</i></b>
 <br />
-<b>🌐 <a href="https://hamid-k.github.io/personal-security-checklist-FA/">hamid-k.github.io/personal-security-checklist-FA</a></b><br />
+<b>🌐 <a href="https://amni.at/">amni.at</a></b><br />
 <br />
-<a href="https://hamid-k.github.io/personal-security-checklist-FA/"><img src="https://i.ibb.co/Rb6P6h6/shield.png" width="64" /><br /></a>
+<a href="https://amni.at/"><img src="https://i.ibb.co/Rb6P6h6/shield.png" width="64" /><br /></a>
 <br />
-<kbd><br />👉 <a href="https://github.com/hamid-k/personal-security-checklist-FA/blob/HEAD/CHECKLIST.md"><b>Read the Checklist</b></a> 👈<br /><br /></kbd>
+<kbd><br />👉 <a href="https://github.com/hamid-k/personal-security-checklist-FA/blob/HEAD/CHECKLIST.fa.md"><b>چک‌لیست فارسی</b></a> · <a href="https://github.com/hamid-k/personal-security-checklist-FA/blob/HEAD/CHECKLIST.md"><b>English Checklist</b></a> 👈<br /><br /></kbd>
 <br />
 </p>
+
+---
+
+## معرفی (فارسی)
+
+این مخزن نسخه فارسی «چک‌لیست امنیت شخصی» است که نسخه اصلی آن توسط **Alicia Sykes** تهیه شده.  
+نسخه فارسی و وب‌سایت تعاملی در **[amni.at](https://amni.at/)** در دسترس است.
+
+- چک‌لیست فارسی: [`CHECKLIST.fa.md`](https://github.com/hamid-k/personal-security-checklist-FA/blob/HEAD/CHECKLIST.fa.md)
+- چک‌لیست انگلیسی: [`CHECKLIST.md`](https://github.com/hamid-k/personal-security-checklist-FA/blob/HEAD/CHECKLIST.md)
 
 <details>
     <summary><b>Contents</b></summary>
@@ -27,14 +37,14 @@
 
 ## The Checklist
 
-You can read the full checklist in [`CHECKLIST.md`](https://github.com/hamid-k/personal-security-checklist-FA/blob/HEAD/CHECKLIST.md).<br>
+You can read the full checklist in [`CHECKLIST.fa.md`](https://github.com/hamid-k/personal-security-checklist-FA/blob/HEAD/CHECKLIST.fa.md) (Farsi) or [`CHECKLIST.md`](https://github.com/hamid-k/personal-security-checklist-FA/blob/HEAD/CHECKLIST.md) (English).<br>
 <sub>To view/edit the raw data, see [`personal-security-checklist.yml`](https://github.com/hamid-k/personal-security-checklist-FA/blob/master/personal-security-checklist.yml)</sub>
 
 ---
 
 ## The Website
 
-The easiest method for consuming the checklist is via our website: **[hamid-k.github.io/personal-security-checklist-FA](https://hamid-k.github.io/personal-security-checklist-FA/)**
+The easiest method for consuming the checklist is via our website: **[amni.at](https://amni.at/)**
 
 Here you can browse lists, filter by your threat model and tick items off once complete (plus, there are pretty charts to make you feel good about your progress ☺️).
 
