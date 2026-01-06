@@ -14,8 +14,8 @@ export default component$(() => {
 
   return (
     <div class="drawer-side z-10">
-      <label for="my-drawer-3" aria-label="close sidebar" class="drawer-overlay md:hidden"></label>
-      <ul class="rounded-box menu p-4 w-80 min-h-full bg-base-200">
+      <label for="my-drawer-3" aria-label="close sidebar" class="drawer-overlay md:hidden z-10"></label>
+      <ul class="relative z-20 rounded-box menu p-4 w-80 min-h-full bg-base-200">
         <h2 class="flex text-primary">
           <Icon class="mr-2" icon="shield" width={16} height={16} />
           {t('appName')}
