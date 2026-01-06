@@ -22,7 +22,10 @@ const articles: Article[] = [
       fa: 'چرا امنیت دیجیتال و حریم خصوصی شما باید جدی گرفته شود.',
     },
     slug: 'importance-of-digital-security',
-    markdown: `${baseUrl}articles/0_Why_It_Matters.md`,
+    markdown: {
+      en: `${baseUrl}articles/0_Why_It_Matters.md`,
+      fa: `${baseUrl}articles/fa/0_Why_It_Matters.md`,
+    },
   },
   {
     title: {
@@ -49,7 +52,10 @@ const articles: Article[] = [
       fa: 'فهرست ابزارها، منابع و اطلاعات تکمیلی.',
     },
     slug: 'helpful-links',
-    markdown: `${baseUrl}articles/4_Privacy_And_Security_Links.md`,
+    markdown: {
+      en: `${baseUrl}articles/4_Privacy_And_Security_Links.md`,
+      fa: `${baseUrl}articles/fa/4_Privacy_And_Security_Links.md`,
+    },
     warningMessage: {
       en: 'This article was written in 2020, and needs updating.',
       fa: 'این مقاله در سال 2020 نوشته شده و نیاز به به روزرسانی دارد.',
@@ -65,7 +71,10 @@ const articles: Article[] = [
       fa: 'دستگاه های سخت افزاری مفید برای حفاظت از حریم خصوصی و امنیت شما.',
     },
     slug: 'privacy-gadgets',
-    markdown: `${baseUrl}articles/6_Privacy_and-Security_Gadgets.md`,
+    markdown: {
+      en: `${baseUrl}articles/6_Privacy_and-Security_Gadgets.md`,
+      fa: `${baseUrl}articles/fa/6_Privacy_and-Security_Gadgets.md`,
+    },
     warningMessage: {
       en: 'This article is outdated and may contain incorrect information. '
         +'It is recommended to verify the information before using any of the products listed.',
