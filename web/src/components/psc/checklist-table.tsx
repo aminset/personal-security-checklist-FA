@@ -10,7 +10,7 @@ import styles from './psc.module.css';
 
 
 export default component$((props: { section: Section }) => {
-  const { t } = useTranslations();
+  const { t, locale } = useTranslations();
 
   const [completed, setCompleted] = useLocalStorage('PSC_PROGRESS', {});
   const [ignored, setIgnored] = useLocalStorage('PSC_IGNORED', {});
@@ -243,7 +243,7 @@ export default component$((props: { section: Section }) => {
       </div>
     )}
 
-    <table class="table">
+    <table class="table" dir={locale.value === 'fa' ? 'rtl' : 'ltr'}>
       <thead>
         <tr>
           { [
@@ -253,16 +253,16 @@ export default component$((props: { section: Section }) => {
           ].map((item) => (
             <th
               key={item.id}
-              class="cursor-pointer"
+              class={['cursor-pointer', locale.value === 'fa' ? 'text-right' : 'text-left']}
               onClick$={() => handleSort(item.id)}
             >
-              <span class="flex items-center gap-0.5 hover:text-primary transition">
+              <span class={['flex items-center gap-0.5 hover:text-primary transition', locale.value === 'fa' ? 'flex-row-reverse' : '']}>
                 <Icon width={12} height={14} icon="sort" />
                 {item.text}
               </span>
             </th>
           ))}
-          <th>{t('filters.details')}</th>
+          <th class={locale.value === 'fa' ? 'text-right' : 'text-left'}>{t('filters.details')}</th>
         </tr>
       </thead>
       <tbody>
@@ -308,19 +308,19 @@ export default component$((props: { section: Section }) => {
                   }}
                 />
               </td>
-              <td>
+              <td class={locale.value === 'fa' ? 'text-right' : 'text-left'}>
                 <label
                   for={`done-${itemId}`}
                   class={`text-base font-bold ${isIgnored(itemId) ? 'line-through' : 'cursor-pointer'}`}>
                   {item.point}
                 </label>
               </td>
-              <td>
+              <td class={locale.value === 'fa' ? 'text-right' : 'text-left'}>
                 <div class={`badge gap-2 badge-${badgeColor}`}>
                   {getPriorityLabel(item.priority)}
                 </div>
               </td>
-              <td class={styles.checklistItemDescription} dangerouslySetInnerHTML={parseMarkdown(item.details)}></td>
+              <td class={[styles.checklistItemDescription, locale.value === 'fa' ? 'text-right' : 'text-left']} dangerouslySetInnerHTML={parseMarkdown(item.details)}></td>
             </tr>
           )}
         )}
