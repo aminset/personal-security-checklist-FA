@@ -73,18 +73,31 @@ export default component$(() => {
       return '';
     }
 
+    const getMarkdownPath = () => {
+      if (typeof article.markdown === 'string') {
+        return article.markdown;
+      }
+      return article.markdown[locale.value] || article.markdown.en || '';
+    };
+
+    const markdownUrl = getMarkdownPath();
+    if (!markdownUrl) {
+      store.notFound = true;
+      return '';
+    }
+
     if (import.meta.env.SSR) {
       const { readFile } = await import('node:fs/promises');
       const { resolve } = await import('node:path');
       const baseUrl = import.meta.env.BASE_URL || '/';
-      const relativePath = article.markdown.startsWith(baseUrl)
-        ? article.markdown.slice(baseUrl.length)
-        : article.markdown.replace(/^\//, '');
+      const relativePath = markdownUrl.startsWith(baseUrl)
+        ? markdownUrl.slice(baseUrl.length)
+        : markdownUrl.replace(/^\//, '');
       const filePath = resolve(process.cwd(), 'public', relativePath);
       return readFile(filePath, 'utf-8');
     }
 
-    const response = await fetch(article.markdown);
+    const response = await fetch(markdownUrl);
     if (!response.ok) {
       store.notFound = true;
       return '';

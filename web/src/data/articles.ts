@@ -5,7 +5,7 @@ interface Article {
   title: Record<Locale, string>;
   description: Record<Locale, string>;
   slug: string;
-  markdown: string;
+  markdown: string | Record<Locale, string>;
   warningMessage?: Record<Locale, string>;
 }
 
@@ -34,7 +34,10 @@ const articles: Article[] = [
       fa: 'فهرست اصلی طولانی است؟ این خلاصه کوتاه را ببینید.',
     },
     slug: 'short-list',
-    markdown: `${baseUrl}articles/2_TLDR_Short_List.md`,
+    markdown: {
+      en: `${baseUrl}articles/2_TLDR_Short_List.md`,
+      fa: `${baseUrl}articles/fa/2_TLDR_Short_List.md`,
+    },
   },
   {
     title: {
