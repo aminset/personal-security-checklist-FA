@@ -28,7 +28,7 @@ export default component$(() => {
   });
 
   return (
-    <div class="drawer">
+    <div class="drawer lg:drawer-open">
       <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
       <div class="drawer-content">
         <Navbar />
