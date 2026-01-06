@@ -105,7 +105,11 @@ export default component$(() => {
       <article class="bg-back p-8 mx-auto max-w-[1200px] my-8 rounded-lg shadow-md">
         <h2 class="text-3xl mb-2" id="author">{t('about.author')}</h2>
           <p>
-            {t('about.authorIntro')} Alicia Sykes - {t('about.authorHelp')}
+            {t('about.authorIntro')}{' '}
+            <a class="link link-primary" href="https://github.com/Lissy93/personal-security-checklist">
+              Alicia Sykes
+            </a>{' '}
+            - {t('about.authorHelp')}
           </p>
           <br />
           <div class="ml-4 float-right">

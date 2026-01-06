@@ -15,7 +15,7 @@
 
 ## معرفی (فارسی)
 
-این مخزن نسخه فارسی «چک‌لیست امنیت شخصی» است که نسخه اصلی آن توسط **Alicia Sykes** تهیه شده.  
+این مخزن نسخه فارسی «چک‌لیست امنیت شخصی» است که نسخه اصلی آن توسط **[Alicia Sykes](https://github.com/Lissy93/personal-security-checklist)** تهیه شده.  
 نسخه فارسی و وب‌سایت تعاملی در **[amni.at](https://amni.at/)** در دسترس است.
 
 - چک‌لیست فارسی: [`CHECKLIST.fa.md`](https://github.com/hamid-k/personal-security-checklist-FA/blob/HEAD/CHECKLIST.fa.md)
