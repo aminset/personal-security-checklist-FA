@@ -2,6 +2,7 @@ import { component$, Slot, useContextProvider, useSignal, useVisibleTask$ } from
 import { type RequestHandler } from "@builder.io/qwik-city";
 
 import Navbar from "~/components/furniture/nav";
+import SideDrawer from "~/components/furniture/side-drawer";
 import Footer from "~/components/furniture/footer";
 import { ChecklistContext } from "~/store/checklist-context";
 import { LocaleContext } from "~/store/locale-context";
@@ -27,12 +28,16 @@ export default component$(() => {
   });
 
   return (
-    <>
-      <Navbar />
-      <main class="bg-base-100 min-h-full">
-        <Slot />
-      </main>
-      <Footer />
-    </>
+    <div class="drawer">
+      <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
+      <div class="drawer-content">
+        <Navbar />
+        <main class="bg-base-100 min-h-full">
+          <Slot />
+        </main>
+        <Footer />
+      </div>
+      <SideDrawer />
+    </div>
   );
 });
