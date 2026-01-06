@@ -71,7 +71,7 @@ export default component$((props: { sections: Section[] }) => {
               </p>
             )}
           </div>
-          <div class="card-body flex-grow py-2 pl-4 pr-0">
+          <div class="card-body flex-grow py-2 pl-4 pr-12 pt-6">
             <h2 class={`card-title text-${section.color}-400 hover:text-${section.color}-500`}>
               {section.title}
             </h2>
