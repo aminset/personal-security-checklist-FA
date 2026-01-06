@@ -1,9 +1,9 @@
-import { $, type QRL, useOnWindow, useStore } from "@builder.io/qwik";
+import { $, type QRL, useStore, useVisibleTask$ } from "@builder.io/qwik";
 
 export function useLocalStorage(key: string, initialState: any): [any, QRL<(value: any) => void>]  {
   const store = useStore({ value: initialState });
 
-  useOnWindow('load', $(() => {
+  useVisibleTask$(() => {
     try {
       const item = window.localStorage.getItem(key);
       if (!item) {
@@ -14,7 +14,7 @@ export function useLocalStorage(key: string, initialState: any): [any, QRL<(valu
       console.log(error);
       store.value = initialState;
     }
-  }));
+  });
 
   const setValue$ = $((value: any) => {
     try {

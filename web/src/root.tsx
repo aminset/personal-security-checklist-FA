@@ -6,6 +6,7 @@ import {
 } from "@builder.io/qwik-city";
 import { RouterHead } from "./components/router-head/router-head";
 import { withBase } from "./utils/paths";
+import { defaultLocale } from "./i18n/translations";
 
 import tailwind from './styles/tailwind.css?inline';
 
@@ -29,7 +30,7 @@ export default component$(() => {
         <RouterHead />
         <ServiceWorkerRegister />
       </head>
-      <body lang="en" data-theme="dark" class="flex flex-col justify-between min-h-screen">
+      <body lang={defaultLocale} data-theme="dark" class="flex flex-col justify-between min-h-screen">
         <RouterOutlet />
       </body>
     </QwikCityProvider>

@@ -104,7 +104,7 @@ export default component$(() => {
       </div>
 
       <div class="drawer-side z-10">
-        <label for="my-drawer-3" aria-label="close sidebar" class="drawer-overlay"></label> 
+        <label for="my-drawer-3" aria-label="close sidebar" class="drawer-overlay md:hidden"></label> 
         <ul class="rounded-box menu p-4 w-80 min-h-full bg-base-200">
           <h2 class="flex text-primary">
           <Icon class="mr-2" icon="shield" width={16} height={16}  />
