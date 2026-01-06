@@ -84,7 +84,7 @@ export default component$((props: { sections: Section[] }) => {
                   <span class="text-xs">{completions.value[index]}%</span>
               </div>
             ) : (
-              <span class="absolute right-2 top-2 opacity-30 text-xs">
+              <span class="absolute left-4 bottom-3 opacity-30 text-xs">
                 {t('sections.notStarted')}
               </span>
             )}
